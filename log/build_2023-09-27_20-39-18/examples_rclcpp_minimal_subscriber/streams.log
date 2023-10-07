@@ -1,0 +1,35 @@
+[0.438s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.948s] CMake Error at CMakeLists.txt:13 (find_package):
+[1.948s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.948s]   has asked CMake to find a package configuration file provided by
+[1.948s]   "ament_cmake", but CMake did not find one.
+[1.949s] 
+[1.949s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.949s]   any of the following names:
+[1.949s] 
+[1.949s]     ament_cmakeConfig.cmake
+[1.949s]     ament_cmake-config.cmake
+[1.949s] 
+[1.949s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.949s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.950s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.950s]   has been installed.
+[1.950s] 
+[1.950s] 
+[1.950s] -- The C compiler identification is GNU 9.4.0
+[1.950s] -- The CXX compiler identification is GNU 9.4.0
+[1.950s] -- Check for working C compiler: /usr/bin/cc
+[1.950s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.950s] -- Detecting C compiler ABI info
+[1.950s] -- Detecting C compiler ABI info - done
+[1.950s] -- Detecting C compile features
+[1.950s] -- Detecting C compile features - done
+[1.950s] -- Check for working CXX compiler: /usr/bin/c++
+[1.951s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.951s] -- Detecting CXX compiler ABI info
+[1.951s] -- Detecting CXX compiler ABI info - done
+[1.951s] -- Detecting CXX compile features
+[1.951s] -- Detecting CXX compile features - done
+[1.951s] -- Configuring incomplete, errors occurred!
+[1.951s] See also "/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber/CMakeFiles/CMakeOutput.log".
+[1.988s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '1': /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber

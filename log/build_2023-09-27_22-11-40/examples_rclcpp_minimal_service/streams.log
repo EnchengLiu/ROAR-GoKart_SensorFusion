@@ -1,0 +1,51 @@
+[0.857s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_service
+[2.556s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.556s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.557s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.558s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.558s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.559s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.563s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.598s] -- Configured cppcheck include dirs: 
+[2.598s] -- Configured cppcheck exclude dirs and/or files: 
+[2.599s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.599s] -- Configured cpplint exclude dirs and/or files: 
+[2.599s] -- Added test 'lint_cmake' to check CMake code style
+[2.600s] -- Added test 'uncrustify' to check C / C++ code style
+[2.600s] -- Configured uncrustify additional arguments: 
+[2.600s] -- Added test 'xmllint' to check XML markup files
+[2.605s] -- Configuring done
+[2.653s] -- Generating done
+[2.656s] -- Build files have been written to: /home/openark/ros2_ws/build/examples_rclcpp_minimal_service
+[2.682s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_service
+[2.688s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_service -- -j12 -l12
+[2.897s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[12.364s] [100%] [32m[1mLinking CXX executable service_main[0m
+[13.000s] [100%] Built target service_main
+[15.960s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_service -- -j12 -l12
+[19.824s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_service
+[20.298s] -- Install configuration: "Release"
+[20.299s] -- Execute custom install script
+[20.299s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[20.299s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[20.299s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[20.299s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[20.299s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[20.300s] -- Symlinking: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[20.300s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[20.301s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[20.301s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[20.401s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_service

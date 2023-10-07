@@ -1,0 +1,7 @@
+Cloning into 'project_p1_fusion_engine_client'...
+Already on 'master'
+/usr/bin/ld: cannot find -lfusion_engine_client
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/point_one_gps_driver_node_exe.dir/build.make:146: point_one_gps_driver_node_exe] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/point_one_gps_driver_node_exe.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

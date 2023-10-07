@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231005-0433-Experimental"
+	Name="openark-Blade"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="openark-Blade"
+	OSRelease="5.15.0-84-generic"
+	OSVersion="#93~20.04.1-Ubuntu SMP Wed Sep 6 16:15:40 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="9216"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15890"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="973.071"
+	>
+	<Testing>
+		<StartDateTime>Oct 04 21:33 PDT</StartDateTime>
+		<StartTestTime>1696480437</StartTestTime>
+		<TestList>
+			<Test>./test/test_string_utilities</Test>
+			<Test>./test/test_parsing_utilities</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_string_utilities</Name>
+			<Path>./test</Path>
+			<FullName>./test/test_string_utilities</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_string_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_string_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0856947</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_string_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_string_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/openark/ros2_ws/build/septentrio_gnss_driver/test':
+ - /home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_string_utilities --gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml
+Running main() from /opt/ros/foxy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TrimTest
+[ RUN      ] TrimTest.string_trimming
+[       OK ] TrimTest.string_trimming (0 ms)
+[----------] 1 test from TrimTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml'
+-- run_test.py: verify result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>test_parsing_utilities</Name>
+			<Path>./test</Path>
+			<FullName>./test/test_parsing_utilities</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_parsing_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.076851</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_parsing_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/openark/ros2_ws/build/septentrio_gnss_driver/test':
+ - /home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities --gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml
+Running main() from /opt/ros/foxy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapTest
+[ RUN      ] WrapTest.angle180
+[       OK ] WrapTest.angle180 (0 ms)
+[----------] 1 test from WrapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'
+-- run_test.py: verify result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 04 21:33 PDT</EndDateTime>
+		<EndTestTime>1696480437</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

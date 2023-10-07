@@ -1,0 +1,18 @@
+[8.826s] Invoking command in '/home/openark/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/openark/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data
+[10.079s] running develop
+[10.159s] running egg_info
+[10.161s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[10.161s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[10.163s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[10.165s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[10.165s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[10.246s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[10.249s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[10.347s] running build_ext
+[10.348s] Creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[10.349s] Installing service script to /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[10.353s] Installing service_member_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[10.354s] 
+[10.355s] Installed /home/openark/ros2_ws/build/examples_rclpy_minimal_service
+[10.356s] running install_data
+[10.638s] Invoked command in '/home/openark/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/openark/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data

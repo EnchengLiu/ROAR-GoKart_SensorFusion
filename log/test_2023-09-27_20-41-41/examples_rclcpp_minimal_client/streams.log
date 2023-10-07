@@ -1,0 +1,106 @@
+[2.214s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client': AMENT_PREFIX_PATH=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.269s] UpdateCTestConfiguration  from :/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[2.269s] Parse Config file:/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[2.269s]    Site: openark-Blade
+[2.269s]    Build name: (empty)
+[2.270s]  Add coverage exclude regular expressions.
+[2.270s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[2.270s] Create new tag: 20230928-0341 - Experimental
+[2.270s] UpdateCTestConfiguration  from :/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[2.270s] Parse Config file:/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[2.270s] Test project /home/openark/ros2_ws/build/examples_rclcpp_minimal_client
+[2.271s] Constructing a list of tests
+[2.271s] Done constructing a list of tests
+[2.271s] Updating test list for fixtures
+[2.271s] Added 0 tests to meet fixture requirements
+[2.271s] Checking test dependency graph...
+[2.272s] Checking test dependency graph end
+[2.272s] test 1
+[2.272s]     Start 1: copyright
+[2.272s] 
+[2.272s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml"
+[2.272s] 1: Test timeout computed to be: 60
+[2.403s] 1: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[2.403s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml
+[3.006s] 1: No problems found, checked 1 files
+[3.046s] 1: -- run_test.py: return code 0
+[3.046s] 1: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml'
+[3.070s] 1/6 Test #1: copyright ........................   Passed    0.84 sec
+[3.070s] test 2
+[3.071s]     Start 2: cppcheck
+[3.071s] 
+[3.071s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml"
+[3.071s] 2: Test timeout computed to be: 300
+[3.217s] 2: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[3.217s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml
+[3.815s] 2: No problems found
+[3.869s] 2: -- run_test.py: return code 0
+[3.870s] 2: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cppcheck.xunit.xml'
+[3.909s] 2/6 Test #2: cppcheck .........................   Passed    0.83 sec
+[3.909s] test 3
+[3.909s]     Start 3: cpplint
+[3.909s] 
+[3.909s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml"
+[3.910s] 3: Test timeout computed to be: 120
+[4.127s] 3: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[4.127s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml
+[4.725s] 3: Using '--root=..' argument
+[4.725s] 3: 
+[4.725s] 3: Done processing /home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client/main.cpp
+[4.725s] 3: 
+[4.726s] 3: No problems found
+[4.763s] 3: -- run_test.py: return code 0
+[4.763s] 3: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/cpplint.xunit.xml'
+[4.772s] 3/6 Test #3: cpplint ..........................   Passed    0.87 sec
+[4.772s] test 4
+[4.772s]     Start 4: lint_cmake
+[4.772s] 
+[4.773s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml"
+[4.773s] 4: Test timeout computed to be: 60
+[4.908s] 4: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[4.908s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml
+[5.416s] 4: 
+[5.416s] 4: No problems found
+[5.444s] 4: -- run_test.py: return code 0
+[5.445s] 4: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/lint_cmake.xunit.xml'
+[5.465s] 4/6 Test #4: lint_cmake .......................   Passed    0.69 sec
+[5.466s] test 5
+[5.467s]     Start 5: uncrustify
+[5.468s] 
+[5.468s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml"
+[5.468s] 5: Test timeout computed to be: 60
+[5.609s] 5: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[5.610s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml
+[6.118s] 5: No code style divergence in file 'main.cpp'
+[6.118s] 5: 
+[6.119s] 5: No problems found
+[6.151s] 5: -- run_test.py: return code 0
+[6.151s] 5: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/uncrustify.xunit.xml'
+[6.170s] 5/6 Test #5: uncrustify .......................   Passed    0.70 sec
+[6.172s] test 6
+[6.172s]     Start 6: xmllint
+[6.173s] 
+[6.173s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml"
+[6.174s] 6: Test timeout computed to be: 60
+[6.309s] 6: -- run_test.py: invoking following command in '/home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[6.309s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml
+[7.147s] 6: File 'package.xml' is valid
+[7.148s] 6: 
+[7.148s] 6: No problems found
+[7.185s] 6: -- run_test.py: return code 0
+[7.187s] 6: -- run_test.py: verify result file '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/xmllint.xunit.xml'
+[7.210s] 6/6 Test #6: xmllint ..........................   Passed    1.03 sec
+[7.213s] 
+[7.214s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[7.214s] 
+[7.215s] Label Time Summary:
+[7.216s] copyright     =   0.84 sec*proc (1 test)
+[7.217s] cppcheck      =   0.83 sec*proc (1 test)
+[7.218s] cpplint       =   0.87 sec*proc (1 test)
+[7.218s] lint_cmake    =   0.69 sec*proc (1 test)
+[7.222s] linter        =   4.97 sec*proc (6 tests)
+[7.222s] uncrustify    =   0.70 sec*proc (1 test)
+[7.225s] xmllint       =   1.03 sec*proc (1 test)
+[7.226s] 
+[7.227s] Total Test time (real) =   4.98 sec
+[7.309s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': AMENT_PREFIX_PATH=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

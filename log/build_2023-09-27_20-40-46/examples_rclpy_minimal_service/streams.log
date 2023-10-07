@@ -1,0 +1,26 @@
+[6.024s] Invoking command in '/home/openark/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/openark/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data
+[6.579s] running develop
+[6.935s] running egg_info
+[6.938s] creating examples_rclpy_minimal_service.egg-info
+[6.938s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[6.939s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[6.942s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[6.943s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[6.944s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[6.946s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[7.002s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[7.006s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[7.060s] running build_ext
+[7.060s] Creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/site.py
+[7.063s] Creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[7.065s] Installing service script to /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[7.066s] Installing service_member_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[7.066s] 
+[7.067s] Installed /home/openark/ros2_ws/build/examples_rclpy_minimal_service
+[7.069s] running install_data
+[7.072s] creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[7.073s] creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[7.073s] creating /home/openark/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[7.074s] copying resource/examples_rclpy_minimal_service -> /home/openark/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[7.075s] copying package.xml -> /home/openark/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[8.013s] Invoked command in '/home/openark/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/openark/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data

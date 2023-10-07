@@ -1,0 +1,35 @@
+[0.630s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client': /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client
+[2.122s] -- The C compiler identification is GNU 9.4.0
+[2.123s] -- The CXX compiler identification is GNU 9.4.0
+[2.123s] -- Check for working C compiler: /usr/bin/cc
+[2.123s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.124s] -- Detecting C compiler ABI info
+[2.124s] -- Detecting C compiler ABI info - done
+[2.126s] -- Detecting C compile features
+[2.127s] -- Detecting C compile features - done
+[2.128s] -- Check for working CXX compiler: /usr/bin/c++
+[2.128s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.129s] -- Detecting CXX compiler ABI info
+[2.130s] -- Detecting CXX compiler ABI info - done
+[2.131s] -- Detecting CXX compile features
+[2.132s] -- Detecting CXX compile features - done
+[2.132s] -- Configuring incomplete, errors occurred!
+[2.133s] See also "/home/openark/ros2_ws/build/examples_rclcpp_minimal_client/CMakeFiles/CMakeOutput.log".
+[2.142s] CMake Error at CMakeLists.txt:13 (find_package):
+[2.143s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.143s]   has asked CMake to find a package configuration file provided by
+[2.143s]   "ament_cmake", but CMake did not find one.
+[2.143s] 
+[2.144s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.144s]   any of the following names:
+[2.144s] 
+[2.144s]     ament_cmakeConfig.cmake
+[2.144s]     ament_cmake-config.cmake
+[2.144s] 
+[2.145s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.145s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.145s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.145s]   has been installed.
+[2.145s] 
+[2.146s] 
+[2.192s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_client' returned '1': /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_client

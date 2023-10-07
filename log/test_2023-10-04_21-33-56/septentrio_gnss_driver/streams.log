@@ -1,0 +1,69 @@
+[0.190s] Invoking command in '/home/openark/ros2_ws/build/septentrio_gnss_driver': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client LD_LIBRARY_PATH=/home/openark/ros2_ws/install/septentrio_gnss_driver/lib:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/openark/ros2_ws/install/zed_rgb_convert/lib:/home/openark/ros2_ws/install/zed_components/lib:/home/openark/ros2_ws/install/rviz_plugin_zed_od/lib:/home/openark/ros2_ws/install/zed_interfaces/lib:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64 PYTHONPATH=/home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages:/home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_executors:/home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.201s] UpdateCTestConfiguration  from :/home/openark/ros2_ws/build/septentrio_gnss_driver/CTestConfiguration.ini
+[0.201s] Parse Config file:/home/openark/ros2_ws/build/septentrio_gnss_driver/CTestConfiguration.ini
+[0.201s]    Site: openark-Blade
+[0.202s]    Build name: (empty)
+[0.202s]  Add coverage exclude regular expressions.
+[0.202s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.202s] Create new tag: 20231005-0433 - Experimental
+[0.202s] UpdateCTestConfiguration  from :/home/openark/ros2_ws/build/septentrio_gnss_driver/CTestConfiguration.ini
+[0.202s] Parse Config file:/home/openark/ros2_ws/build/septentrio_gnss_driver/CTestConfiguration.ini
+[0.202s] Test project /home/openark/ros2_ws/build/septentrio_gnss_driver
+[0.202s] Constructing a list of tests
+[0.202s] Done constructing a list of tests
+[0.202s] Updating test list for fixtures
+[0.203s] Added 0 tests to meet fixture requirements
+[0.203s] Checking test dependency graph...
+[0.203s] Checking test dependency graph end
+[0.203s] test 1
+[0.203s]     Start 1: test_string_utilities
+[0.203s] 
+[0.203s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_string_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_string_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml"
+[0.203s] 1: Test timeout computed to be: 60
+[0.265s] 1: -- run_test.py: invoking following command in '/home/openark/ros2_ws/build/septentrio_gnss_driver/test':
+[0.266s] 1:  - /home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_string_utilities --gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml
+[0.277s] 1: Running main() from /opt/ros/foxy/src/gtest_vendor/src/gtest_main.cc
+[0.277s] 1: [==========] Running 1 test from 1 test case.
+[0.277s] 1: [----------] Global test environment set-up.
+[0.277s] 1: [----------] 1 test from TrimTest
+[0.277s] 1: [ RUN      ] TrimTest.string_trimming
+[0.277s] 1: [       OK ] TrimTest.string_trimming (0 ms)
+[0.277s] 1: [----------] 1 test from TrimTest (0 ms total)
+[0.278s] 1: 
+[0.278s] 1: [----------] Global test environment tear-down
+[0.278s] 1: [==========] 1 test from 1 test case ran. (0 ms total)
+[0.278s] 1: [  PASSED  ] 1 test.
+[0.280s] 1: -- run_test.py: return code 0
+[0.280s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml'
+[0.281s] 1: -- run_test.py: verify result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_string_utilities.gtest.xml'
+[0.288s] 1/2 Test #1: test_string_utilities ............   Passed    0.09 sec
+[0.288s] test 2
+[0.288s]     Start 2: test_parsing_utilities
+[0.288s] 
+[0.288s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml" "--package-name" "septentrio_gnss_driver" "--output-file" "/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_gtest/test_parsing_utilities.txt" "--command" "/home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities" "--gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml"
+[0.288s] 2: Test timeout computed to be: 60
+[0.348s] 2: -- run_test.py: invoking following command in '/home/openark/ros2_ws/build/septentrio_gnss_driver/test':
+[0.348s] 2:  - /home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities --gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml
+[0.356s] 2: Running main() from /opt/ros/foxy/src/gtest_vendor/src/gtest_main.cc
+[0.356s] 2: [==========] Running 1 test from 1 test case.
+[0.356s] 2: [----------] Global test environment set-up.
+[0.356s] 2: [----------] 1 test from WrapTest
+[0.356s] 2: [ RUN      ] WrapTest.angle180
+[0.356s] 2: [       OK ] WrapTest.angle180 (0 ms)
+[0.356s] 2: [----------] 1 test from WrapTest (0 ms total)
+[0.356s] 2: 
+[0.357s] 2: [----------] Global test environment tear-down
+[0.357s] 2: [==========] 1 test from 1 test case ran. (0 ms total)
+[0.357s] 2: [  PASSED  ] 1 test.
+[0.357s] 2: -- run_test.py: return code 0
+[0.357s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'
+[0.357s] 2: -- run_test.py: verify result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'
+[0.365s] 2/2 Test #2: test_parsing_utilities ...........   Passed    0.08 sec
+[0.365s] 
+[0.365s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[0.366s] 
+[0.366s] Label Time Summary:
+[0.366s] gtest    =   0.16 sec*proc (2 tests)
+[0.366s] 
+[0.366s] Total Test time (real) =   0.16 sec
+[0.400s] Invoked command in '/home/openark/ros2_ws/build/septentrio_gnss_driver' returned '0': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client LD_LIBRARY_PATH=/home/openark/ros2_ws/install/septentrio_gnss_driver/lib:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/openark/ros2_ws/install/zed_rgb_convert/lib:/home/openark/ros2_ws/install/zed_components/lib:/home/openark/ros2_ws/install/rviz_plugin_zed_od/lib:/home/openark/ros2_ws/install/zed_interfaces/lib:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/extras/CUPTI/lib64 PYTHONPATH=/home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages:/home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/openark/ros2_ws/build/examples_rclpy_executors:/home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

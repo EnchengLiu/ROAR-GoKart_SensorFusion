@@ -1,0 +1,19 @@
+-- run_test.py: invoking following command in '/home/openark/ros2_ws/build/septentrio_gnss_driver/test':
+ - /home/openark/ros2_ws/build/septentrio_gnss_driver/test/test_parsing_utilities --gtest_output=xml:/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml
+
+Running main() from /opt/ros/foxy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapTest
+[ RUN      ] WrapTest.angle180
+[       OK ] WrapTest.angle180 (0 ms)
+[----------] 1 test from WrapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'
+-- run_test.py: verify result file '/home/openark/ros2_ws/build/septentrio_gnss_driver/test_results/septentrio_gnss_driver/test_parsing_utilities.gtest.xml'

@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_client', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client')])}
+[0.000135] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict([('examples_rclcpp_minimal_action_server', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server')])}
+[0.000157] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict([('examples_rclcpp_minimal_client', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_client')])}
+[0.000185] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict([('examples_rclcpp_minimal_composition', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition')])}
+[0.000204] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict([('examples_rclcpp_minimal_publisher', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher')])}
+[0.000222] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict([('examples_rclcpp_minimal_service', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_service')])}
+[0.000241] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclcpp_minimal_subscriber', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber')])}
+[0.000258] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict([('examples_rclcpp_minimal_timer', '/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer')])}
+[0.000275] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict([('examples_rclcpp_multithreaded_executor', '/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor')])}
+[0.000292] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict([('examples_rclpy_executors', '/home/openark/ros2_ws/install/examples_rclpy_executors')])}
+[0.000311] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_client', '/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client')])}
+[0.000330] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict([('examples_rclpy_minimal_action_server', '/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server')])}
+[0.000347] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict([('examples_rclpy_minimal_client', '/home/openark/ros2_ws/install/examples_rclpy_minimal_client')])}
+[0.000364] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict([('examples_rclpy_minimal_publisher', '/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher')])}
+[0.000385] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict([('examples_rclpy_minimal_service', '/home/openark/ros2_ws/install/examples_rclpy_minimal_service')])}
+[0.000403] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict([('examples_rclpy_minimal_subscriber', '/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber')])}
+[0.000420] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.056738] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.100155] (-) TimerEvent: {}
+[0.111873] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.166065] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.201625] (-) TimerEvent: {}
+[0.220182] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.274777] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.301744] (-) TimerEvent: {}
+[0.331085] (examples_rclcpp_minimal_subscriber) JobStarted: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.385344] (examples_rclcpp_minimal_timer) JobStarted: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.401839] (-) TimerEvent: {}
+[0.441133] (examples_rclcpp_multithreaded_executor) JobStarted: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.496051] (examples_rclpy_executors) JobStarted: {'identifier': 'examples_rclpy_executors'}
+[0.502410] (-) TimerEvent: {}
+[0.550344] (examples_rclpy_executors) JobEnded: {'identifier': 'examples_rclpy_executors', 'rc': 1}
+[0.550646] (examples_rclpy_minimal_action_client) JobStarted: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.601075] (examples_rclpy_minimal_action_client) JobEnded: {'identifier': 'examples_rclpy_minimal_action_client', 'rc': 1}
+[0.601321] (examples_rclpy_minimal_action_server) JobStarted: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.603231] (-) TimerEvent: {}
+[0.652471] (examples_rclpy_minimal_action_server) JobEnded: {'identifier': 'examples_rclpy_minimal_action_server', 'rc': 1}
+[0.653382] (examples_rclpy_minimal_client) JobStarted: {'identifier': 'examples_rclpy_minimal_client'}
+[0.704113] (examples_rclpy_minimal_client) JobEnded: {'identifier': 'examples_rclpy_minimal_client', 'rc': 1}
+[0.704507] (-) TimerEvent: {}
+[0.704612] (examples_rclpy_minimal_publisher) JobStarted: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.755605] (examples_rclpy_minimal_publisher) JobEnded: {'identifier': 'examples_rclpy_minimal_publisher', 'rc': 1}
+[0.755997] (examples_rclpy_minimal_service) JobStarted: {'identifier': 'examples_rclpy_minimal_service'}
+[0.805309] (-) TimerEvent: {}
+[0.806931] (examples_rclpy_minimal_service) JobEnded: {'identifier': 'examples_rclpy_minimal_service', 'rc': 1}
+[0.808413] (examples_rclpy_minimal_subscriber) JobStarted: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.863623] (examples_rclpy_minimal_subscriber) JobEnded: {'identifier': 'examples_rclpy_minimal_subscriber', 'rc': 1}
+[0.903333] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 0}
+[0.904098] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 0}
+[0.904465] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 0}
+[0.904829] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 0}
+[0.905118] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 0}
+[0.905382] (-) TimerEvent: {}
+[0.905567] (examples_rclcpp_minimal_service) JobEnded: {'identifier': 'examples_rclcpp_minimal_service', 'rc': 0}
+[0.905972] (examples_rclcpp_minimal_subscriber) JobEnded: {'identifier': 'examples_rclcpp_minimal_subscriber', 'rc': 0}
+[0.906693] (examples_rclcpp_minimal_timer) JobEnded: {'identifier': 'examples_rclcpp_minimal_timer', 'rc': 0}
+[0.908650] (examples_rclcpp_multithreaded_executor) JobEnded: {'identifier': 'examples_rclcpp_multithreaded_executor', 'rc': 0}
+[0.919004] (-) EventReactorShutdown: {}

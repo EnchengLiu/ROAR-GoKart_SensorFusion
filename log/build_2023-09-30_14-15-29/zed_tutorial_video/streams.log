@@ -1,0 +1,66 @@
+[2.812s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_tutorial_video
+[3.219s] -- The C compiler identification is GNU 9.4.0
+[3.219s] -- The CXX compiler identification is GNU 9.4.0
+[3.219s] -- Check for working C compiler: /usr/bin/cc
+[3.219s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.219s] -- Detecting C compiler ABI info
+[3.219s] -- Detecting C compiler ABI info - done
+[3.219s] -- Detecting C compile features
+[3.219s] -- Detecting C compile features - done
+[3.219s] -- Check for working CXX compiler: /usr/bin/c++
+[3.220s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.220s] -- Detecting CXX compiler ABI info
+[3.349s] -- Detecting CXX compiler ABI info - done
+[3.380s] -- Detecting CXX compile features
+[3.381s] -- Detecting CXX compile features - done
+[3.389s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.901s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.331s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.713s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.072s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.080s] -- Looking for pthread.h
+[5.309s] -- Looking for pthread.h - found
+[5.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.414s] -- Looking for pthread_create in pthreads
+[5.508s] -- Looking for pthread_create in pthreads - not found
+[5.508s] -- Looking for pthread_create in pthread
+[5.612s] -- Looking for pthread_create in pthread - found
+[5.615s] -- Found Threads: TRUE  
+[6.113s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.127s] -- Configuring done
+[6.137s] -- Generating done
+[6.138s] -- Build files have been written to: /home/openark/ros2_ws/build/zed_tutorial_video
+[7.308s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_tutorial_video
+[7.309s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_tutorial_video -- -j12 -l12
+[7.359s] [35m[1mScanning dependencies of target zed_tutorial_video[0m
+[7.415s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_video.dir/src/zed_video_sub_tutorial.cpp.o[0m
+[14.353s] [100%] [32m[1mLinking CXX executable zed_tutorial_video[0m
+[14.613s] [100%] Built target zed_tutorial_video
+[14.632s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_tutorial_video -- -j12 -l12
+[14.682s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_tutorial_video
+[14.699s] -- Install configuration: "Release"
+[14.700s] -- Execute custom install script
+[14.700s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[14.718s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[14.736s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[14.756s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[14.773s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[14.792s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[14.810s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[14.828s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[14.846s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[14.864s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[14.881s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[14.898s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[14.916s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[14.933s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[14.950s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[14.968s] -- Symlinking: /home/openark/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[14.989s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_tutorial_video

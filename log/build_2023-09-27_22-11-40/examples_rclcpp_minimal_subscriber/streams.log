@@ -1,0 +1,58 @@
+[0.743s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[2.430s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.431s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.431s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.431s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.432s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.432s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.432s] -- Configured cppcheck include dirs: 
+[2.433s] -- Configured cppcheck exclude dirs and/or files: 
+[2.433s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.433s] -- Configured cpplint exclude dirs and/or files: 
+[2.433s] -- Added test 'lint_cmake' to check CMake code style
+[2.433s] -- Added test 'uncrustify' to check C / C++ code style
+[2.433s] -- Configured uncrustify additional arguments: 
+[2.434s] -- Added test 'xmllint' to check XML markup files
+[2.434s] -- Configuring done
+[2.434s] -- Generating done
+[2.436s] -- Build files have been written to: /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[2.467s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[2.468s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[2.563s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[2.569s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[2.623s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[22.223s] [ 66%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[22.961s] [ 66%] Built target subscriber_lambda
+[23.146s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[23.777s] [ 83%] Built target subscriber_member_function
+[24.754s] [100%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[25.247s] [100%] Built target subscriber_not_composable
+[27.839s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[29.278s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[29.305s] -- Install configuration: "Release"
+[29.305s] -- Execute custom install script
+[29.306s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[29.306s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[29.306s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[29.306s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[29.306s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[29.307s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[29.307s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[29.307s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[29.307s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[29.308s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[29.308s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[29.308s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[29.309s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[29.309s] -- Symlinking: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[29.312s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[29.312s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[29.312s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[29.313s] -- Up-to-date symlink: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[29.783s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber
