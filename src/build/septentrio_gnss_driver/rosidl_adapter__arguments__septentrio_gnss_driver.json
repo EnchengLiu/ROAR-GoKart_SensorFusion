@@ -1,0 +1,31 @@
+{
+  "package_name": "septentrio_gnss_driver",
+  "non_idl_tuples": [
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/AIMPlusStatus.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/BaseVectorCart.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/BaseVectorGeod.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/BlockHeader.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/GALAuthStatus.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/RFBand.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/RFStatus.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/MeasEpoch.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/MeasEpochChannelType1.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/MeasEpochChannelType2.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/PVTCartesian.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/PVTGeodetic.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/PosCovCartesian.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/PosCovGeodetic.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/ReceiverTime.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/VelCovCartesian.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/VelCovGeodetic.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/AttEuler.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/AttCovEuler.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/INSNavCart.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/INSNavGeod.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/IMUSetup.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/VectorInfoCart.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/VectorInfoGeod.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/VelSensorSetup.msg",
+    "/home/openark/ros2_ws/src/septentrio_gnss_driver:msg/ExtSensorMeas.msg"
+  ]
+}
