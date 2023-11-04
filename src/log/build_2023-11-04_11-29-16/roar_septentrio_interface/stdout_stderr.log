@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/include/roar_septentrio_interface/roar_septentrio_interface_node.hpp:5[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/src/roar_septentrio_interface_node.cpp:1[m[K:
+[01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/src/roar_septentrio_interface_node.cpp:[m[K In member function ‘[01m[Kvoid ROAR::SeptentrioInterface::SeptentrioInterfaceNode::gps_callback(gps_msgs::msg::GPSFix_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/src/roar_septentrio_interface_node.cpp:104:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct gps_msgs::msg::GPSFix_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct gps_msgs::msg::GPSFix_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klatitue[m[K’; did you mean ‘[01m[Klatitude[m[K’?
+  104 |                                             << "\nGPS: " << msg->[01;31m[Klatitue[m[K << de << ", " << msg->longitud", " << msg->altitude
+      |                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/src/roar_septentrio_interface_node.cpp:104:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kde[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  104 |                                             << "\nGPS: " << msg->latitue << [01;31m[Kde[m[K << ", " << msg->longitud", " << msg->altitude
+      |                                                                             [01;31m[K^~[m[K
+[01m[K/home/openark/ros2_ws/src/roar_septentrio_interface/src/roar_septentrio_interface_node.cpp:104:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct gps_msgs::msg::GPSFix_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct gps_msgs::msg::GPSFix_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klongitud[m[K’; did you mean ‘[01m[Klongitude[m[K’?
+  104 |                                             << "\nGPS: " << msg->latitue << de << ", " << msg->[01;31m[Klongitud[m[K", " << msg->altitude
+      |                                                                                                [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/roar_septentrio_interface_node.dir/build.make:63: CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/roar_septentrio_interface_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

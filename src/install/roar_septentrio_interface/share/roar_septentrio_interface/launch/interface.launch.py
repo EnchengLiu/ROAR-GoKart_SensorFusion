@@ -28,7 +28,8 @@ def generate_launch_description():
         remappings=
         [
             ("/roar/odometry", "/roar/odometry"),
-            ("/gps/fix", "/gps/gps"),
+            ("/gps/fix", "/gpsfix"),
+            ("/roar/path", "/roar/path"),
         ]
     )
     ld.add_action(odom_publisher)

@@ -5,6 +5,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "gps_msgs/msg/gps_fix.hpp"
 #include "nav_msgs/msg/odometry.hpp"
+#include "nav_msgs/msg/path.hpp"
 #include <tf2_ros/transform_broadcaster.h>
 
 namespace ROAR
@@ -43,9 +44,12 @@ namespace ROAR
 
             // publishers
             rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_publisher_;
+            rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr path_publisher_;
 
             std::unique_ptr<tf2_ros::TransformBroadcaster>
                 tf_broadcaster_;
+
+            nav_msgs::msg::Path path{};
         };
     } // namespace SeptentrioInterface
 }

@@ -1,0 +1,26 @@
+[4.363s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/openark/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/openark/ros2_ws/src/build/examples_rclpy_executors/build install --record /home/openark/ros2_ws/src/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
+[6.897s] running egg_info
+[6.897s] writing ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[6.898s] writing dependency_links to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[6.898s] writing entry points to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[6.898s] writing requirements to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[6.898s] writing top-level names to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[6.899s] reading manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.899s] writing manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.899s] running build
+[6.899s] running build_py
+[6.899s] running install
+[6.900s] running install_lib
+[6.900s] running install_data
+[6.900s] running install_egg_info
+[6.900s] removing '/home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info' (and everything under it)
+[6.901s] Copying ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[6.901s] running install_scripts
+[6.901s] Installing callback_group script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.902s] Installing composed script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.902s] Installing custom_callback_group script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.902s] Installing custom_executor script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.902s] Installing listener script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.903s] Installing talker script to /home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.905s] writing list of installed files to '/home/openark/ros2_ws/src/build/examples_rclpy_executors/install.log'
+[9.836s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/openark/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/home/openark/ros2_ws/src/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/openark/ros2_ws/src/build/examples_rclpy_executors/build install --record /home/openark/ros2_ws/src/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
