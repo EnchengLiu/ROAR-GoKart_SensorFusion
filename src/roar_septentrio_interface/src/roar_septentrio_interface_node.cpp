@@ -85,8 +85,10 @@ namespace ROAR
       }
       
       geometry_msgs::msg::PoseStamped poseStamped;
-      poseStamped.pose = odom.pose.pose;
-      poseStamped.header = path.header;
+      poseStamped.header = msg->header;
+      poseStamped.pose.position.x = msg->longitude;
+      poseStamped.pose.position.y = msg->latitude;
+      poseStamped.pose.position.z = msg->altitude;
       path.poses.push_back(poseStamped);
 
       /**
@@ -123,10 +125,11 @@ namespace ROAR
       transformStamped.transform.translation.y = odom->pose.pose.position.y;
       transformStamped.transform.translation.z = odom->pose.pose.position.z;
 
+
       transformStamped.transform.rotation = odom->pose.pose.orientation;
 
       // publish tf
-      tf_broadcaster_->sendTransform(transformStamped);
+      //tf_broadcaster_->sendTransform(transformStamped);
     }
 
     void SeptentrioInterfaceNode::convert_gnss_to_local_cartesian(GeodeticPosition inputGeoPosition, CartesianPosition &outputCartesianPosition)

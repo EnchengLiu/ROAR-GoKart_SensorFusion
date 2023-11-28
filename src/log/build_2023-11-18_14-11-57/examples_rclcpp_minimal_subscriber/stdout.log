@@ -1,0 +1,25 @@
+[ 33%] Built target subscriber_not_composable
+[ 66%] Built target subscriber_member_function
+[100%] Built target subscriber_lambda
+-- Install configuration: ""
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Set runtime path of "/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Set runtime path of "/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Set runtime path of "/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Up-to-date: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Installing: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Up-to-date: /home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

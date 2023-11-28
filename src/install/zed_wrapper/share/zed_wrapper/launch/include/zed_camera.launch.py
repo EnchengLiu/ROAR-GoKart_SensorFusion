@@ -192,19 +192,19 @@ def generate_launch_description():
                 description='The serial number of the camera to be opened. To be used in multi-camera rigs. Has priority with respect to `zed_id`.'),
             DeclareLaunchArgument(
                 'publish_urdf',
-                default_value='true',
+                default_value='false',
                 description='Enable URDF processing and starts Robot State Published to propagate static TF.'),
             DeclareLaunchArgument(
                 'publish_tf',
-                default_value='true',
+                default_value='false',
                 description='Enable publication of the `odom -> base_link` TF.'),
             DeclareLaunchArgument(
                 'publish_map_tf',
-                default_value='true',
+                default_value='false',
                 description='Enable publication of the `map -> odom` TF. Note: Ignored if `publish_tf` is False.'),
             DeclareLaunchArgument(
                 'publish_imu_tf',
-                default_value='true',
+                default_value='false',
                 description='Enable publication of the IMU TF. Note: Ignored if `publish_tf` is False.'),
             DeclareLaunchArgument(
                 'xacro_path',

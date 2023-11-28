@@ -56,20 +56,13 @@ Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_system.so
 
 Boost_THREAD_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 
-//No help, variable specified on the command line.
-CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
-
-//No help, variable specified on the command line.
-CATKIN_SYMLINK_INSTALL:UNINITIALIZED=ON
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
+//Choose the type of build.
 CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
@@ -407,9 +400,6 @@ boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 
-//The directory containing a CMake configuration file for catkin.
-catkin_DIR:PATH=catkin_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
 
@@ -667,6 +657,8 @@ Boost_DIR-ADVANCED:INTERNAL=1
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//STRINGS property for variable: CMAKE_BUILD_TYPE
+CMAKE_BUILD_TYPE-STRINGS:INTERNAL=Debug;Release;MinSizeRel;RelWithDebInfo
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/openark/ros2_ws/build/septentrio_gnss_driver
 //Major version of cmake used to create the current loaded cache

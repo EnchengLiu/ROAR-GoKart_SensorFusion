@@ -68,5 +68,5 @@
         "bit": "cpp",
         "*.ipp": "cpp"
     },
-    "cmake.sourceDirectory": "/home/openark/ros2_ws/src/build/septentrio_gnss_driver/septentrio_gnss_driver__py"
+    "cmake.sourceDirectory": "/home/openark/ros2_ws/src/examples/rclcpp/actions/minimal_action_client"
 }

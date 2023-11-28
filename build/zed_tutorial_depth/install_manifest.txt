@@ -1,0 +1,1 @@
+/home/openark/ros2_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv

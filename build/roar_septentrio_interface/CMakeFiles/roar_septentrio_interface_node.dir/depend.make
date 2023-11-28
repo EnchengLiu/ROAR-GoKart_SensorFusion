@@ -93,7 +93,12 @@ CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__struct.hpp
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__traits.hpp
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__type_support.hpp
+CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/path__builder.hpp
+CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/path__struct.hpp
+CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/path__traits.hpp
+CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/detail/path__type_support.hpp
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/odometry.hpp
+CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/path.hpp
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/rcl/allocator.h
 CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o: /opt/ros/foxy/include/rcl/arguments.h

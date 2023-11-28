@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/openark/ros2_ws/build/point_one_gps_driver/point_one_gps_driver_node_exe" "TARGETS" "point_one_gps_driver_node_exe" "DESTINATION" "lib/point_one_gps_driver")

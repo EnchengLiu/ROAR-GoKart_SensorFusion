@@ -113,7 +113,7 @@ libzed_camera_component.so: /usr/local/zed/lib/libsl_zed.so
 libzed_camera_component.so: /usr/lib/x86_64-linux-gnu/libopenblas.so
 libzed_camera_component.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 libzed_camera_component.so: /usr/lib/x86_64-linux-gnu/libnvidia-encode.so
-libzed_camera_component.so: /usr/local/cuda/lib64/libcudart_static.a
+libzed_camera_component.so: /usr/local/cuda-12.2/lib64/libcudart_static.a
 libzed_camera_component.so: /usr/lib/x86_64-linux-gnu/librt.so
 libzed_camera_component.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
 libzed_camera_component.so: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so

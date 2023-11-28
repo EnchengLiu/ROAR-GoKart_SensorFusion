@@ -1,5 +1,1 @@
-# RFband block
-
-uint32 frequency # Hz
-uint16 bandwidth # kHz
-uint8  info
+/home/openark/ros2_ws/src/septentrio_gnss_driver/msg/RFBand.msg

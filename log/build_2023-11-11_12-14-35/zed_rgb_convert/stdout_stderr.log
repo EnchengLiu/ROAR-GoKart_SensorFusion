@@ -1,0 +1,40 @@
+-- Found CUDA: /usr/local/cuda-12.2 (found suitable version "12.2", minimum required is "12") 
+-- Found CUDA: /usr/local/cuda-12.2 (found version "12.2") 
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/include;/home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/component/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/openark/ros2_ws/build/zed_rgb_convert
+[ 50%] Built target zed_rgb_convert_component
+[35m[1mScanning dependencies of target zed_rgb_convert[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/zed_rgb_convert.dir/src/container/zed_rgb_convert.cpp.o[0m
+In file included from [01m[K/home/openark/ros2_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/container/zed_rgb_convert.cpp:17[m[K:
+[01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~
+   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+      |                                                                [01;36m[K^[m[K
+[100%] [32m[1mLinking CXX executable zed_rgb_convert[0m
+[100%] Built target zed_rgb_convert
+-- Install configuration: "Release"
+-- Up-to-date: /home/openark/ros2_ws/install/zed_rgb_convert/include/zed_rgb_convert/
+-- Up-to-date: /home/openark/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/launch
+-- Installing: /home/openark/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.dsv

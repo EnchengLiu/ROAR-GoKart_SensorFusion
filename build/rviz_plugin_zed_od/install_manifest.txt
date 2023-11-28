@@ -1,3 +1,4 @@
 /home/openark/ros2_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+/home/openark/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
 /home/openark/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
-/home/openark/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-release.cmake
+/home/openark/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-noconfig.cmake
