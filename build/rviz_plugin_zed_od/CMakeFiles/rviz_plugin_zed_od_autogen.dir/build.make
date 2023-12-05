@@ -55,7 +55,7 @@ include CMakeFiles/rviz_plugin_zed_od_autogen.dir/progress.make
 
 CMakeFiles/rviz_plugin_zed_od_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/openark/ros2_ws/build/rviz_plugin_zed_od/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target rviz_plugin_zed_od"
-	/usr/bin/cmake -E cmake_autogen /home/openark/ros2_ws/build/rviz_plugin_zed_od/CMakeFiles/rviz_plugin_zed_od_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/openark/ros2_ws/build/rviz_plugin_zed_od/CMakeFiles/rviz_plugin_zed_od_autogen.dir/AutogenInfo.json ""
 
 rviz_plugin_zed_od_autogen: CMakeFiles/rviz_plugin_zed_od_autogen
 rviz_plugin_zed_od_autogen: CMakeFiles/rviz_plugin_zed_od_autogen.dir/build.make

@@ -17,6 +17,8 @@ gps_msgs/msg/gps_fix.hpp
 /home/openark/ros2_ws/src/roar_septentrio_interface/include/roar_septentrio_interface/gps_msgs/msg/gps_fix.hpp
 nav_msgs/msg/odometry.hpp
 /home/openark/ros2_ws/src/roar_septentrio_interface/include/roar_septentrio_interface/nav_msgs/msg/odometry.hpp
+nav_msgs/msg/path.hpp
+/home/openark/ros2_ws/src/roar_septentrio_interface/include/roar_septentrio_interface/nav_msgs/msg/path.hpp
 tf2_ros/transform_broadcaster.h
 -
 
@@ -33,6 +35,8 @@ tf2_geometry_msgs/tf2_geometry_msgs.h
 /home/openark/ros2_ws/src/roar_septentrio_interface/src/tf2_geometry_msgs/tf2_geometry_msgs.h
 nav_msgs/msg/odometry.hpp
 /home/openark/ros2_ws/src/roar_septentrio_interface/src/nav_msgs/msg/odometry.hpp
+nav_msgs/msg/path.hpp
+/home/openark/ros2_ws/src/roar_septentrio_interface/src/nav_msgs/msg/path.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
@@ -1096,6 +1100,56 @@ nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 rosidl_typesupport_cpp/message_type_support.hpp
 /opt/ros/foxy/include/nav_msgs/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
 
+/opt/ros/foxy/include/nav_msgs/msg/detail/path__builder.hpp
+nav_msgs/msg/detail/path__struct.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/nav_msgs/msg/detail/path__struct.hpp
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+utility
+-
+
+/opt/ros/foxy/include/nav_msgs/msg/detail/path__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
+std_msgs/msg/detail/header__struct.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/std_msgs/msg/detail/header__struct.hpp
+geometry_msgs/msg/detail/pose_stamped__struct.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+
+/opt/ros/foxy/include/nav_msgs/msg/detail/path__traits.hpp
+nav_msgs/msg/detail/path__struct.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/nav_msgs/msg/detail/path__struct.hpp
+rosidl_runtime_cpp/traits.hpp
+-
+stdint.h
+-
+type_traits
+-
+std_msgs/msg/detail/header__traits.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/std_msgs/msg/detail/header__traits.hpp
+
+/opt/ros/foxy/include/nav_msgs/msg/detail/path__type_support.hpp
+rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/nav_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+rosidl_typesupport_cpp/message_type_support.hpp
+/opt/ros/foxy/include/nav_msgs/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
+
 /opt/ros/foxy/include/nav_msgs/msg/odometry.hpp
 nav_msgs/msg/detail/odometry__struct.hpp
 /opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/odometry__struct.hpp
@@ -1105,6 +1159,16 @@ nav_msgs/msg/detail/odometry__traits.hpp
 /opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/odometry__traits.hpp
 nav_msgs/msg/detail/odometry__type_support.hpp
 /opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/odometry__type_support.hpp
+
+/opt/ros/foxy/include/nav_msgs/msg/path.hpp
+nav_msgs/msg/detail/path__struct.hpp
+/opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/path__struct.hpp
+nav_msgs/msg/detail/path__builder.hpp
+/opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/path__builder.hpp
+nav_msgs/msg/detail/path__traits.hpp
+/opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/path__traits.hpp
+nav_msgs/msg/detail/path__type_support.hpp
+/opt/ros/foxy/include/nav_msgs/msg/nav_msgs/msg/detail/path__type_support.hpp
 
 /opt/ros/foxy/include/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 

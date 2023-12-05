@@ -1,1 +1,0 @@
-/home/openark/ros2_ws/build/zed_tutorial_pos_tracking/ament_cmake_environment_hooks/local_setup.sh

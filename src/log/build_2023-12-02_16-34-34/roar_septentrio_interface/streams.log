@@ -1,0 +1,76 @@
+[2.191s] Invoking command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/roar_septentrio_interface -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/roar_septentrio_interface
+[2.367s] -- The C compiler identification is GNU 9.4.0
+[2.472s] -- The CXX compiler identification is GNU 9.4.0
+[2.486s] -- Check for working C compiler: /usr/bin/cc
+[2.619s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.622s] -- Detecting C compiler ABI info
+[2.751s] -- Detecting C compiler ABI info - done
+[2.768s] -- Detecting C compile features
+[2.769s] -- Detecting C compile features - done
+[2.773s] -- Check for working CXX compiler: /usr/bin/c++
+[2.891s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.894s] -- Detecting CXX compiler ABI info
+[3.026s] -- Detecting CXX compiler ABI info - done
+[3.059s] -- Detecting CXX compile features
+[3.060s] -- Detecting CXX compile features - done
+[3.071s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.125s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.127s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.561s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.832s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.052s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.309s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.313s] -- Looking for pthread.h
+[4.420s] -- Looking for pthread.h - found
+[4.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.528s] -- Looking for pthread_create in pthreads
+[4.610s] -- Looking for pthread_create in pthreads - not found
+[4.611s] -- Looking for pthread_create in pthread
+[4.711s] -- Looking for pthread_create in pthread - found
+[4.713s] -- Found Threads: TRUE  
+[6.369s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[6.388s] -- Configuring done
+[6.424s] -- Generating done
+[6.427s] -- Build files have been written to: /home/openark/ros2_ws/src/build/roar_septentrio_interface
+[6.442s] Invoked command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/roar_septentrio_interface -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/roar_septentrio_interface
+[6.447s] Invoking command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/src/build/roar_septentrio_interface -- -j12 -l12
+[6.501s] [35m[1mScanning dependencies of target roar_septentrio_interface_node[0m
+[6.566s] [ 50%] [32mBuilding CXX object CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node.cpp.o[0m
+[14.801s] [100%] [32m[1mLinking CXX executable roar_septentrio_interface_node[0m
+[15.257s] [100%] Built target roar_septentrio_interface_node
+[15.269s] Invoked command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/src/build/roar_septentrio_interface -- -j12 -l12
+[15.296s] Invoking command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/src/build/roar_septentrio_interface
+[15.307s] -- Install configuration: ""
+[15.307s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/lib/roar_septentrio_interface/roar_septentrio_interface_node
+[15.310s] -- Set runtime path of "/home/openark/ros2_ws/src/install/roar_septentrio_interface/lib/roar_septentrio_interface/roar_septentrio_interface_node" to ""
+[15.310s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/include
+[15.310s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/include/.gitkeep
+[15.310s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/include/roar_septentrio_interface
+[15.310s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/include/roar_septentrio_interface/roar_septentrio_interface_node.hpp
+[15.310s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/launch
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/launch/interface.launch.py
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/launch/.gitkeep
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/param
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/param/.gitkeep
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/param/config.yaml
+[15.311s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/ament_index/resource_index/package_run_dependencies/roar_septentrio_interface
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/ament_index/resource_index/parent_prefix_path/roar_septentrio_interface
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/environment/ament_prefix_path.sh
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/environment/ament_prefix_path.dsv
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/environment/path.sh
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/environment/path.dsv
+[15.312s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/local_setup.bash
+[15.313s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/local_setup.sh
+[15.313s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/local_setup.zsh
+[15.313s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/local_setup.dsv
+[15.313s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/package.dsv
+[15.313s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/ament_index/resource_index/packages/roar_septentrio_interface
+[15.314s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/cmake/roar_septentrio_interfaceConfig.cmake
+[15.314s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/cmake/roar_septentrio_interfaceConfig-version.cmake
+[15.314s] -- Installing: /home/openark/ros2_ws/src/install/roar_septentrio_interface/share/roar_septentrio_interface/package.xml
+[15.316s] Invoked command in '/home/openark/ros2_ws/src/build/roar_septentrio_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/src/build/roar_septentrio_interface

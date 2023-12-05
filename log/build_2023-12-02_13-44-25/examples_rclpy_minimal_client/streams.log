@@ -1,0 +1,24 @@
+[8.399s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed
+[9.278s] running egg_info
+[9.280s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[9.291s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[9.291s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[9.293s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[9.293s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[9.478s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.479s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.479s] running build
+[9.480s] running build_py
+[9.482s] running install
+[9.484s] running install_lib
+[9.488s] running install_data
+[9.490s] running install_egg_info
+[9.499s] removing '/home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info' (and everything under it)
+[9.502s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[9.503s] running install_scripts
+[9.618s] Installing client script to /home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.622s] Installing client_async script to /home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.623s] Installing client_async_callback script to /home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.626s] Installing client_async_member_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.627s] writing list of installed files to '/home/openark/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[10.728s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed

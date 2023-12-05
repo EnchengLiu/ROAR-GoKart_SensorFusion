@@ -1,3 +1,0 @@
-repository='https://github.com/PointOneNav/fusion-engine-client.git'
-module=''
-tag='origin'

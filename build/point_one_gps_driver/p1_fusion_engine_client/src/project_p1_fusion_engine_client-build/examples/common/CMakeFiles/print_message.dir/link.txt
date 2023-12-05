@@ -1,2 +1,0 @@
-/usr/bin/ar qc libprint_message.a  CMakeFiles/print_message.dir/print_message.cc.o
-/usr/bin/ranlib libprint_message.a

@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/cuda/include"
+  "/usr/local/cuda-12.2/include"
   "/usr/local/zed/include"
   "/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_wrapper/src"
   "/home/openark/ros2_ws/install/zed_components/include"

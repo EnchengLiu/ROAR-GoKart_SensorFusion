@@ -29,6 +29,7 @@ def generate_launch_description():
         [
             ("/roar/odometry", "/roar/odometry"),
             ("/gps/fix", "/gpsfix"),
+            ("/roar/path", "/roar/path"),
         ]
     )
     ld.add_action(odom_publisher)

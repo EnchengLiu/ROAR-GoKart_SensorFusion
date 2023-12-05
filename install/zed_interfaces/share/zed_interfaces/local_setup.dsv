@@ -1,1 +1,4 @@
-/home/openark/ros2_ws/build/zed_interfaces/ament_cmake_environment_hooks/local_setup.dsv
+source;share/zed_interfaces/environment/ament_prefix_path.sh
+source;share/zed_interfaces/environment/library_path.sh
+source;share/zed_interfaces/environment/path.sh
+source;share/zed_interfaces/environment/pythonpath.sh

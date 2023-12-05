@@ -1,11 +1,10 @@
 digraph G {
 "imu" -> "vsm"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "base_link" -> "imu"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
-"imu" -> "gnss"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 "imu" -> "aux1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
-"map" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 100.217\nBuffer length: 5.029\nMost recent transform: 1699119910.69461\nOldest transform: 1699119905.66554\n"];
+"imu" -> "gnss"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1699119910.7088933"[ shape=plaintext ] ;
-}->"map";
+"Recorded at time: 1701551389.6102607"[ shape=plaintext ] ;
+}->"base_link";
 }

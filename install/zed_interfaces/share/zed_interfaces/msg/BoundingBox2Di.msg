@@ -1,1 +1,6 @@
-/home/openark/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces/msg/BoundingBox2Di.msg
+#      0 ------- 1
+#      |         |
+#      |         |
+#      |         |
+#      3 ------- 2
+zed_interfaces/Keypoint2Di[4] corners

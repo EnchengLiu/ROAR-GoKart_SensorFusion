@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/build/point_one_gps_driver/p1_fusion_engine_client;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

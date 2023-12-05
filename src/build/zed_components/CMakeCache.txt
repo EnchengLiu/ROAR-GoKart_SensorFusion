@@ -366,7 +366,7 @@ CUDA_nppial_LIBRARY:FILEPATH=/usr/local/cuda-12.2/lib64/libnppial.so
 CUDA_nppicc_LIBRARY:FILEPATH=/usr/local/cuda-12.2/lib64/libnppicc.so
 
 //"nppicom" library
-CUDA_nppicom_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libnppicom.so
+CUDA_nppicom_LIBRARY:FILEPATH=CUDA_nppicom_LIBRARY-NOTFOUND
 
 //"nppidei" library
 CUDA_nppidei_LIBRARY:FILEPATH=/usr/local/cuda-12.2/lib64/libnppidei.so

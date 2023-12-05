@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target zed_camera_component[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m

@@ -3937,6 +3937,9 @@ bool ZedCamera::startCamera()
 
   if (mGnssFusionEnabled) {
     DEBUG_GNSS("Initialize Fusion module");
+
+
+    DEBUG_GNSS("11111111111111111111111111");
     // ----> Initialize Fusion module
 
     // Fusion parameters
@@ -6831,9 +6834,11 @@ void ZedCamera::processGeoPose()
   if (!mGnss2BaseTransfValid) {
     getGnss2BaseTransform();
   }
+  //DEBUG_GNSS("11111111111111111111111111");
+  
 
   mGeoPoseStatus = mFusion.getGeoPose(mLastGeoPose);
-
+  
   publishGeoPoseStatus();
 #if (ZED_SDK_MINOR_VERSION == 0 && ZED_SDK_PATCH_VERSION < 6)
   if (mGeoPoseStatus != sl::POSITIONAL_TRACKING_STATE::OK ||
@@ -8857,6 +8862,10 @@ void ZedCamera::callback_gnssFix(const sensor_msgs::msg::NavSatFix::SharedPtr ms
   //std::lock_guard<std::mutex> lock(mGnssDataMutex);
   sl::GNSSData gnssData;
   gnssData.ts.setNanoseconds(ts_gnss_nsec);
+  DEBUG_GNSS("GNSSDATA Timestamp: %llu nsec",gnssData.ts.getNanoseconds());
+  DEBUG_GNSS("mZed CURRENT Timestamp: %d", mZed.getTimestamp(sl::TIME_REFERENCE::CURRENT));
+  DEBUG_GNSS("mZed IMAGE Timestamp: %d", mZed.getTimestamp(sl::TIME_REFERENCE::IMAGE));
+
   gnssData.setCoordinates(latit, longit, altit, false);
 
 

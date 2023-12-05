@@ -94,7 +94,12 @@ CMakeFiles/roar_septentrio_interface_node.dir/src/roar_septentrio_interface_node
  /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__struct.hpp
  /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__traits.hpp
  /opt/ros/foxy/include/nav_msgs/msg/detail/odometry__type_support.hpp
+ /opt/ros/foxy/include/nav_msgs/msg/detail/path__builder.hpp
+ /opt/ros/foxy/include/nav_msgs/msg/detail/path__struct.hpp
+ /opt/ros/foxy/include/nav_msgs/msg/detail/path__traits.hpp
+ /opt/ros/foxy/include/nav_msgs/msg/detail/path__type_support.hpp
  /opt/ros/foxy/include/nav_msgs/msg/odometry.hpp
+ /opt/ros/foxy/include/nav_msgs/msg/path.hpp
  /opt/ros/foxy/include/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/foxy/include/rcl/allocator.h
  /opt/ros/foxy/include/rcl/arguments.h

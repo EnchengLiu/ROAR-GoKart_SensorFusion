@@ -1,1 +1,1 @@
-/home/openark/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces/msg/Keypoint3D.msg
+float32[3] kp
