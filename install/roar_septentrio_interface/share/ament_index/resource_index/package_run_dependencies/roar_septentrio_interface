@@ -1,1 +1,1 @@
-rclcpp;geometry_msgs;visualization_msgs;std_msgs;sensor_msgs;message_filters;nav2_util;nav_msgs;tf2_ros;geographiclib;nav2_core;gps_msgs;ament_lint_auto;ament_lint_common
+/home/openark/ros2_ws/build/roar_septentrio_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/roar_septentrio_interface

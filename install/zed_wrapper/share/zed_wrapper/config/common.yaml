@@ -83,7 +83,7 @@
             qos_durability: 2 # '1': TRANSIENT_LOCAL - '2': VOLATILE
 
         gnss_fusion:
-            gnss_fusion_enabled: True # fuse 'sensor_msg/NavSatFix' message information into pose data
+            gnss_fusion_enabled: true # fuse 'sensor_msg/NavSatFix' message information into pose data
             gnss_fix_topic: "/navsatfix" # Name of the GNSS topic of type NavSatFix to subscribe [Default: "/gps/fix"]
             gnss_init_distance: 5.0 # The minimum distance traveled by the robot required to initilize the GNSS fusion [SDK <= v4.0.5]
             gnss_zero_altitude: True # Set to `true` to ignore GNSS altitude information

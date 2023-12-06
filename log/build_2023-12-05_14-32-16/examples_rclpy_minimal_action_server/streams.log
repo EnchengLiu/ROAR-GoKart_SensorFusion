@@ -1,0 +1,42 @@
+[11.082s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed
+[15.226s] running egg_info
+[15.226s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[15.238s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[15.238s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[15.239s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[15.239s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[15.239s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[15.239s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[15.239s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[15.240s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[15.240s] running build
+[15.240s] running build_py
+[15.240s] creating /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[15.250s] creating /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[15.251s] creating /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.251s] copying examples_rclpy_minimal_action_server/server.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.251s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.251s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.252s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.252s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.252s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[15.252s] running install
+[15.252s] running install_lib
+[15.253s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-38.pyc
+[15.253s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-38.pyc
+[15.253s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-38.pyc
+[15.253s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-38.pyc
+[15.254s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-38.pyc
+[15.254s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-38.pyc
+[15.301s] running install_data
+[15.302s] running install_egg_info
+[15.302s] removing '/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info' (and everything under it)
+[15.302s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[15.302s] running install_scripts
+[15.303s] Installing server script to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[15.303s] Installing server_defer script to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[15.303s] Installing server_not_composable script to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[15.303s] Installing server_queue_goals script to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[15.303s] Installing server_single_goal script to /home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[15.304s] writing list of installed files to '/home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[16.531s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed

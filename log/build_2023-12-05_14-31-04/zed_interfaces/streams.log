@@ -1,0 +1,19 @@
+[3.600s] Invoking command in '/home/openark/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_interfaces -- -j12 -l12
+[4.886s] -- Configuring incomplete, errors occurred!
+[4.887s] See also "/home/openark/ros2_ws/build/zed_interfaces/CMakeFiles/CMakeOutput.log".
+[4.887s] CMake Error at /home/openark/ros2_ws/build/zed_interfaces/CMakeFiles/3.16.3/CMakeSystem.cmake:1:
+[4.889s]   Parse error.  Expected a command name, got unquoted argument with text
+[4.890s]   "<<<<<<<".
+[4.891s] Call Stack (most recent call first):
+[4.891s]   CMakeLists.txt:2 (project)
+[4.892s] 
+[4.893s] 
+[4.893s] CMake Error at /home/openark/ros2_ws/build/zed_interfaces/CMakeFiles/3.16.3/CMakeSystem.cmake:1:
+[4.894s]   Parse error.  Expected a command name, got unquoted argument with text
+[4.894s]   "<<<<<<<".
+[4.894s] Call Stack (most recent call first):
+[4.895s]   CMakeLists.txt:2 (project)
+[4.896s] 
+[4.896s] 
+[4.896s] make: *** [Makefile:4602: cmake_check_build_system] Error 1
+[4.993s] Invoked command in '/home/openark/ros2_ws/build/zed_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_interfaces -- -j12 -l12

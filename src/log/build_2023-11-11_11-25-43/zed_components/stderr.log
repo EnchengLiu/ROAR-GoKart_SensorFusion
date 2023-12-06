@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libnvidia-encode.so', needed by 'libzed_camera_component.so'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/zed_camera_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

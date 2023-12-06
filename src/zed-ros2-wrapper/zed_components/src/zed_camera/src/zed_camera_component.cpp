@@ -8863,8 +8863,8 @@ void ZedCamera::callback_gnssFix(const sensor_msgs::msg::NavSatFix::SharedPtr ms
   sl::GNSSData gnssData;
   gnssData.ts.setNanoseconds(ts_gnss_nsec);
   DEBUG_GNSS("GNSSDATA Timestamp: %llu nsec",gnssData.ts.getNanoseconds());
-  DEBUG_GNSS("mZed CURRENT Timestamp: %d", mZed.getTimestamp(sl::TIME_REFERENCE::CURRENT));
-  DEBUG_GNSS("mZed IMAGE Timestamp: %d", mZed.getTimestamp(sl::TIME_REFERENCE::IMAGE));
+  DEBUG_GNSS("mZed CURRENT Timestamp %llu nsec", mZed.getTimestamp(sl::TIME_REFERENCE::CURRENT).getNanoseconds());
+  DEBUG_GNSS("mZed IMAGE Timestamp %llu nsec", mZed.getTimestamp(sl::TIME_REFERENCE::IMAGE).getNanoseconds());
 
   gnssData.setCoordinates(latit, longit, altit, false);
 

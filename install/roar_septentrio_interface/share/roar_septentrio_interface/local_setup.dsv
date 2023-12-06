@@ -1,2 +1,1 @@
-source;share/roar_septentrio_interface/environment/ament_prefix_path.sh
-source;share/roar_septentrio_interface/environment/path.sh
+/home/openark/ros2_ws/build/roar_septentrio_interface/ament_cmake_environment_hooks/local_setup.dsv

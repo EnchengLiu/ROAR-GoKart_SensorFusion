@@ -1,4 +1,1 @@
-source;share/septentrio_gnss_driver/environment/ament_prefix_path.sh
-source;share/septentrio_gnss_driver/environment/library_path.sh
-source;share/septentrio_gnss_driver/environment/path.sh
-source;share/septentrio_gnss_driver/environment/pythonpath.sh
+/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_environment_hooks/local_setup.dsv

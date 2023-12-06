@@ -1,0 +1,20 @@
+[1.683s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[3.172s] CMake Error at /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber/CMakeFiles/3.16.3/CMakeSystem.cmake:1:
+[3.174s]   Parse error.  Expected a command name, got unquoted argument with text
+[3.175s]   "<<<<<<<".
+[3.177s] Call Stack (most recent call first):
+[3.178s]   CMakeLists.txt:2 (project)
+[3.179s] 
+[3.179s] 
+[3.180s] CMake Error at /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber/CMakeFiles/3.16.3/CMakeSystem.cmake:1:
+[3.183s]   Parse error.  Expected a command name, got unquoted argument with text
+[3.183s]   "<<<<<<<".
+[3.184s] Call Stack (most recent call first):
+[3.185s]   CMakeLists.txt:2 (project)
+[3.185s] 
+[3.187s] 
+[3.188s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[3.188s] -- Configuring incomplete, errors occurred!
+[3.189s] See also "/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber/CMakeFiles/CMakeOutput.log".
+[3.190s] See also "/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber/CMakeFiles/CMakeError.log".
+[3.205s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12

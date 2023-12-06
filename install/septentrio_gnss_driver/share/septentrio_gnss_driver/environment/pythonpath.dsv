@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;lib/python3.8/site-packages
+/home/openark/ros2_ws/build/septentrio_gnss_driver/ament_cmake_environment_hooks/pythonpath.dsv

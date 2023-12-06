@@ -1,7 +1,6 @@
 /home/openark/ros2_ws/install/zed_components/lib/libzed_camera_component.so
 /home/openark/ros2_ws/install/zed_components/include/zed_components//sl_types.hpp
 /home/openark/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
-/home/openark/ros2_ws/install/zed_components/include/zed_components//.zed_camera_component.hpp.swp
 /home/openark/ros2_ws/install/zed_components/include/zed_components//cost_traversability.hpp
 /home/openark/ros2_ws/install/zed_components/include/zed_components//sl_tools.hpp
 /home/openark/ros2_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
