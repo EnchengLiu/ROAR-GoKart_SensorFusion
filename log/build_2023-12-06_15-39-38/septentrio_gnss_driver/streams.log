@@ -1,0 +1,185 @@
+[4.106s] Invoking command in '/home/openark/ros2_ws/build/septentrio_gnss_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/septentrio_gnss_driver -- -j12 -l12
+[5.071s] [  1%] Built target gtest_main
+[5.072s] [  1%] Built target gtest
+[5.075s] [  1%] Built target septentrio_gnss_driver__cpp
+[5.076s] [ 13%] Built target septentrio_gnss_driver__rosidl_generator_c
+[5.077s] [ 24%] Built target septentrio_gnss_driver__rosidl_typesupport_cpp
+[5.078s] [ 35%] Built target septentrio_gnss_driver__rosidl_typesupport_c
+[5.083s] [ 46%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_cpp
+[5.083s] [ 57%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_cpp
+[5.084s] [ 68%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_c
+[5.086s] [ 79%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_c
+[5.086s] [ 79%] Built target septentrio_gnss_driver
+[5.087s] [ 80%] Built target septentrio_gnss_driver__py
+[5.090s] [ 90%] Built target septentrio_gnss_driver__python
+[5.092s] [ 91%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_c__pyext
+[5.093s] [ 92%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_c__pyext
+[5.098s] [ 92%] Built target septentrio_gnss_driver__rosidl_typesupport_c__pyext
+[5.099s] [ 97%] Built target septentrio_gnss_driver_core
+[5.100s] [ 98%] Built target test_string_utilities
+[5.101s] [ 99%] Built target test_parsing_utilities
+[5.108s] [100%] Built target septentrio_gnss_driver_node
+[5.157s] Invoked command in '/home/openark/ros2_ws/build/septentrio_gnss_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/septentrio_gnss_driver -- -j12 -l12
+[6.501s] Invoking command in '/home/openark/ros2_ws/build/septentrio_gnss_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/septentrio_gnss_driver
+[6.652s] -- Install configuration: "Release"
+[6.652s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.653s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.657s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.658s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_sensor_setup__functions.c
+[6.658s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type2__functions.c
+[6.659s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_geodetic__functions.c
+[6.662s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/aim_plus_status__functions.c
+[6.663s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/gal_auth_status__functions.c
+[6.664s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/receiver_time__functions.c
+[6.665s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_cov_euler__functions.c
+[6.665s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_cartesian__functions.c
+[6.666s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_geodetic__functions.c
+[6.668s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_geodetic__functions.c
+[6.669s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_cart__functions.c
+[6.670s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/block_header__functions.c
+[6.670s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_geod__functions.c
+[6.671s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/imu_setup__functions.c
+[6.679s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_band__functions.c
+[6.685s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_geod__functions.c
+[6.685s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_status__functions.c
+[6.686s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ext_sensor_meas__functions.c
+[6.687s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_euler__functions.c
+[6.688s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_cartesian__functions.c
+[6.688s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_geod__functions.c
+[6.689s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_cartesian__functions.c
+[6.689s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type1__functions.c
+[6.689s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_cart__functions.c
+[6.691s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch__functions.c
+[6.695s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_cart__functions.c
+[6.696s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver__rosidl_generator_c.so
+[6.699s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.701s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.703s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.705s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.707s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.709s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.710s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/dds_fastrtps
+[6.711s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.712s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.713s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.713s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/imu_setup__type_support.c
+[6.715s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_cart__type_support.c
+[6.716s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_status__type_support.c
+[6.717s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch__type_support.c
+[6.718s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/block_header__type_support.c
+[6.719s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_geod__type_support.c
+[6.719s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_cartesian__type_support.c
+[6.719s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_geodetic__type_support.c
+[6.720s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_geodetic__type_support.c
+[6.721s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/receiver_time__type_support.c
+[6.721s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_cart__type_support.c
+[6.722s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type1__type_support.c
+[6.726s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_band__type_support.c
+[6.731s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_cartesian__type_support.c
+[6.733s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ext_sensor_meas__type_support.c
+[6.733s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_geodetic__type_support.c
+[6.736s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/aim_plus_status__type_support.c
+[6.738s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_euler__type_support.c
+[6.739s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_cartesian__type_support.c
+[6.739s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_sensor_setup__type_support.c
+[6.742s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type2__type_support.c
+[6.742s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_geod__type_support.c
+[6.745s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/gal_auth_status__type_support.c
+[6.745s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_geod__type_support.c
+[6.745s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_cart__type_support.c
+[6.745s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_cov_euler__type_support.c
+[6.751s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver__rosidl_typesupport_introspection_c.so
+[6.752s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver__rosidl_typesupport_c.so
+[6.760s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.763s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.763s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.769s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver
+[6.771s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg
+[6.772s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail
+[6.773s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_cartesian__type_support.cpp
+[6.774s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_geodetic__type_support.cpp
+[6.776s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type1__type_support.cpp
+[6.778s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_band__type_support.cpp
+[6.781s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/imu_setup__type_support.cpp
+[6.783s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch__type_support.cpp
+[6.784s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_geod__type_support.cpp
+[6.784s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ext_sensor_meas__type_support.cpp
+[6.785s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/receiver_time__type_support.cpp
+[6.787s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_cov_cartesian__type_support.cpp
+[6.788s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_cart__type_support.cpp
+[6.788s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/ins_nav_geod__type_support.cpp
+[6.788s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/meas_epoch_channel_type2__type_support.cpp
+[6.788s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_cov_euler__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/gal_auth_status__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vel_sensor_setup__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/aim_plus_status__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/base_vector_cart__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/block_header__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_geodetic__type_support.cpp
+[6.789s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_geod__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pos_cov_cartesian__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/pvt_geodetic__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/vector_info_cart__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/rf_status__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/septentrio_gnss_driver/msg/detail/att_euler__type_support.cpp
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver__rosidl_typesupport_introspection_cpp.so
+[6.790s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver__rosidl_typesupport_cpp.so
+[6.791s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg
+[6.791s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_ins_nav_cart_s.c
+[6.791s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_vel_sensor_setup_s.c
+[6.791s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_att_euler_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_ext_sensor_meas_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_pvt_cartesian_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_vel_cov_cartesian_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_pvt_geodetic_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_ins_nav_geod_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_pos_cov_geodetic_s.c
+[6.792s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_rf_band_s.c
+[6.793s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_meas_epoch_s.c
+[6.793s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_rf_status_s.c
+[6.793s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_base_vector_geod_s.c
+[6.793s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_aim_plus_status_s.c
+[6.793s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_imu_setup_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_meas_epoch_channel_type2_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_vel_cov_geodetic_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_vector_info_cart_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_base_vector_cart_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_meas_epoch_channel_type1_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_receiver_time_s.c
+[6.794s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_block_header_s.c
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_pos_cov_cartesian_s.c
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_vector_info_geod_s.c
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_att_cov_euler_s.c
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/python3.8/site-packages/septentrio_gnss_driver/msg/_gal_auth_status_s.c
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/libseptentrio_gnss_driver_core.so
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/lib/septentrio_gnss_driver/septentrio_gnss_driver_node
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include/
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver
+[6.795s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/abstraction
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/communication
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/node
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/crc
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/parsers
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/parsers/nmea_parsers
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/include//septentrio_gnss_driver/plugin
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/launch
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/config
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/config/rover.yaml
+[6.796s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/config/rover_node.yaml
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/config/ins.yaml
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/ament_index/resource_index/parent_prefix_path/septentrio_gnss_driver
+[6.797s] -- Installing: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/package.dsv
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_generator_cExport.cmake
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_generator_cExport-release.cmake
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_introspection_cExport.cmake
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_introspection_cExport-release.cmake
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_cExport.cmake
+[6.797s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_cExport-release.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_generator_cppExport.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_introspection_cppExport.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_cppExport.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver__rosidl_typesupport_cppExport-release.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver_coreExport.cmake
+[6.798s] -- Up-to-date: /home/openark/ros2_ws/install/septentrio_gnss_driver/share/septentrio_gnss_driver/cmake/septentrio_gnss_driver_coreExport-release.cmake
+[8.218s] Invoked command in '/home/openark/ros2_ws/build/septentrio_gnss_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/septentrio_gnss_driver
