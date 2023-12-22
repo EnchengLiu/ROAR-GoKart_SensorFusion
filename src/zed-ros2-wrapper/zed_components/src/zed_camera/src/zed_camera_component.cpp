@@ -8867,8 +8867,11 @@ void ZedCamera::callback_gnssFix(const sensor_msgs::msg::NavSatFix::SharedPtr ms
   DEBUG_GNSS("mZed IMAGE Timestamp %llu nsec", mZed.getTimestamp(sl::TIME_REFERENCE::IMAGE).getNanoseconds());
 
   gnssData.setCoordinates(latit, longit, altit, false);
-
-
+  if (!msg->position_covariance_type){
+    DEBUG_STREAM_GNSS(
+      " * msg->position_covariance_type is none " << msg->position_covariance_type);
+  }
+  
   if (msg->position_covariance_type != sensor_msgs::msg::NavSatFix::COVARIANCE_TYPE_UNKNOWN) {
 
     // TODO(Walter) Handle the new covariance mode in the SDK
@@ -8882,6 +8885,10 @@ void ZedCamera::callback_gnssFix(const sensor_msgs::msg::NavSatFix::SharedPtr ms
     position_covariance[0] = gnssData.latitude_std * 5.f;  // X
     position_covariance[1 * 3 + 1] = gnssData.longitude_std * 5.f; // Y
     position_covariance[2 * 3 + 2] = gnssData.altitude_std * 10.f; // Z
+    // position_covariance[2 * 3 + 2] =1.11
+    DEBUG_STREAM_GNSS(
+      " * Position_covariance -X  " << gnssData.latitude_std * 5.f << " * Position_covariance -Y "<< gnssData.longitude_std * 5.f<< " * Position_covariance -Z  " << gnssData.altitude_std * 10.f <<
+        " \n std::array<double, 9> position_covariance = {0.1 * 0.1, 0, 0, 0, 0.1 * 0.1, 0, 0, 0, 0.1 * 0.1}");
     gnssData.position_covariance = position_covariance;
   }
 

@@ -1,0 +1,4 @@
+source;share/roar_SensorFusion_PathVisual/local_setup.bash
+source;share/roar_SensorFusion_PathVisual/local_setup.dsv
+source;share/roar_SensorFusion_PathVisual/local_setup.sh
+source;share/roar_SensorFusion_PathVisual/local_setup.zsh
