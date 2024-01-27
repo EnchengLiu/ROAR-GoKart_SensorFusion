@@ -1,0 +1,9 @@
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libnvidia-encode.so', needed by 'libzed_camera_component.so'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~
+   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+      |                                                                [01;36m[K^[m[K
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/zed_camera_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

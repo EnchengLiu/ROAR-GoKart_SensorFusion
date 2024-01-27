@@ -1,0 +1,23 @@
+[8.025s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed
+[8.989s] running egg_info
+[9.017s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[9.018s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[9.021s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[9.021s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[9.022s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[9.147s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[9.163s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[9.164s] running build
+[9.165s] running build_py
+[9.173s] running install
+[9.188s] running install_lib
+[9.194s] running install_data
+[9.195s] running install_egg_info
+[9.232s] removing '/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info' (and everything under it)
+[9.232s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[9.232s] running install_scripts
+[9.248s] Installing publisher_local_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.248s] Installing publisher_member_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.248s] Installing publisher_old_school script to /home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.249s] writing list of installed files to '/home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[10.452s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed

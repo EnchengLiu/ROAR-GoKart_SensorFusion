@@ -1,0 +1,59 @@
+[0.463s] Invoking command in '/home/openark/ros2_ws/src/build/zed_components': AMENT_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/openark/ros2_ws/src/build/zed_components -- -j12 -l12
+[0.634s] [35m[1mScanning dependencies of target zed_camera_component[0m
+[0.805s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[0.866s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[2.273s] In file included from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+[2.273s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[2.274s] [01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~
+[2.274s]    68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+[2.274s]       |                                                                [01;36m[K^[m[K
+[5.195s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[5.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.199s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer_interface.h:35[m[K,
+[5.199s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:40[m[K,
+[5.199s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18[m[K,
+[5.199s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:22[m[K,
+[5.199s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[5.200s] [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:[m[K In member function ‘[01m[Kvoid stereolabs::ZedCamera::processGeoPose()[m[K’:
+[5.200s] [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:6839:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string(double)[m[K’
+[5.201s]  6839 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(),mLastGeoPose.latlng_coordinates.getAltitude());
+[5.201s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.201s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[5.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.202s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.203s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.204s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.205s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.206s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.207s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer_interface.h:35[m[K,
+[5.207s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:40[m[K,
+[5.207s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18[m[K,
+[5.208s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:22[m[K,
+[5.209s]                  from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[5.209s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[5.209s]   296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+[5.210s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[5.211s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+[5.212s]   296 | get_c_string([01;36m[Kconst char * string_in[m[K);
+[5.212s]       |              [01;36m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[5.212s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+[5.214s]   305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+[5.214s]       | [01;36m[K^~~~~~~~~~~~[m[K
+[5.215s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[5.215s]   305 | get_c_string([01;36m[Kconst std::string & string_in[m[K);
+[5.216s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[11.115s] make[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:89: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Error 1
+[11.115s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/zed_camera_component.dir/all] Error 2
+[11.115s] make: *** [Makefile:141: all] Error 2
+[11.117s] Invoked command in '/home/openark/ros2_ws/src/build/zed_components' returned '2': AMENT_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/openark/ros2_ws/src/build/zed_components -- -j12 -l12

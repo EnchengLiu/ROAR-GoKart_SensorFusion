@@ -1,0 +1,23 @@
+[5.282s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed
+[5.873s] running egg_info
+[5.889s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.889s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.889s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.889s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.890s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.987s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.992s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.993s] running build
+[5.993s] running build_py
+[5.993s] running install
+[5.993s] running install_lib
+[5.997s] running install_data
+[5.998s] running install_egg_info
+[6.003s] removing '/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info' (and everything under it)
+[6.003s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info
+[6.007s] running install_scripts
+[6.051s] Installing subscriber_lambda script to /home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.053s] Installing subscriber_member_function script to /home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.055s] Installing subscriber_old_school script to /home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.060s] writing list of installed files to '/home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[7.244s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/openark/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed

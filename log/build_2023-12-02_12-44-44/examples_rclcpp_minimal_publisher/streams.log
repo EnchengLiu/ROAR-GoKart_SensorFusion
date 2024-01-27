@@ -1,0 +1,88 @@
+[1.209s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.673s] -- The C compiler identification is GNU 9.4.0
+[2.674s] -- The CXX compiler identification is GNU 9.4.0
+[2.674s] -- Check for working C compiler: /usr/bin/cc
+[2.674s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.684s] -- Detecting C compiler ABI info
+[2.684s] -- Detecting C compiler ABI info - done
+[2.684s] -- Detecting C compile features
+[2.685s] -- Detecting C compile features - done
+[2.685s] -- Check for working CXX compiler: /usr/bin/c++
+[2.685s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.685s] -- Detecting CXX compiler ABI info
+[2.732s] -- Detecting CXX compiler ABI info - done
+[2.813s] -- Detecting CXX compile features
+[2.816s] -- Detecting CXX compile features - done
+[2.821s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.900s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.902s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.574s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.731s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.061s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.402s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.419s] -- Looking for pthread.h
+[4.665s] -- Looking for pthread.h - found
+[4.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.879s] -- Looking for pthread_create in pthreads
+[5.108s] -- Looking for pthread_create in pthreads - not found
+[5.108s] -- Looking for pthread_create in pthread
+[5.334s] -- Looking for pthread_create in pthread - found
+[5.337s] -- Found Threads: TRUE  
+[5.856s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.075s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.080s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.081s] -- Configured cppcheck include dirs: 
+[6.081s] -- Configured cppcheck exclude dirs and/or files: 
+[6.084s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.084s] -- Configured cpplint exclude dirs and/or files: 
+[6.089s] -- Added test 'lint_cmake' to check CMake code style
+[6.094s] -- Added test 'uncrustify' to check C / C++ code style
+[6.094s] -- Configured uncrustify additional arguments: 
+[6.095s] -- Added test 'xmllint' to check XML markup files
+[6.106s] -- Configuring done
+[6.138s] -- Generating done
+[6.143s] -- Build files have been written to: /home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher
+[6.187s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher
+[6.188s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[6.282s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[6.292s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[6.312s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[6.449s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[6.450s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[6.539s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[20.993s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[23.200s] [ 66%] Built target publisher_lambda
+[24.688s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[24.716s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[25.801s] [100%] Built target publisher_not_composable
+[26.321s] [100%] Built target publisher_member_function
+[26.466s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[30.841s] Invoking command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher
+[34.691s] -- Install configuration: ""
+[34.691s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[34.691s] -- Set runtime path of "/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[34.691s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[34.692s] -- Set runtime path of "/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[34.692s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[34.692s] -- Set runtime path of "/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[34.692s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[34.692s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[34.693s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[34.693s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[34.693s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[34.693s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[34.694s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[34.694s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[34.694s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[34.694s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[34.694s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[34.695s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[34.695s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[34.695s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[34.695s] -- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[37.867s] Invoked command in '/home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/examples_rclcpp_minimal_publisher

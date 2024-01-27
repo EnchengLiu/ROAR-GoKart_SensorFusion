@@ -1,0 +1,20 @@
+[  0%] Built target gtest
+[  0%] Built target septentrio_gnss_driver__cpp
+[ 12%] Built target septentrio_gnss_driver__rosidl_generator_c
+[ 13%] Built target gtest_main
+[ 24%] Built target septentrio_gnss_driver__rosidl_typesupport_cpp
+[ 35%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_cpp
+[ 57%] Built target septentrio_gnss_driver__rosidl_typesupport_c
+[ 57%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_c
+[ 79%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_c
+[ 79%] Built target septentrio_gnss_driver
+[ 80%] Built target septentrio_gnss_driver__py
+[ 90%] Built target septentrio_gnss_driver__python
+[ 90%] Built target septentrio_gnss_driver__rosidl_typesupport_c__pyext
+[ 91%] Built target septentrio_gnss_driver__rosidl_typesupport_introspection_c__pyext
+[ 92%] Built target septentrio_gnss_driver__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target septentrio_gnss_driver_core
+[ 98%] Built target test_string_utilities
+[ 99%] Built target test_parsing_utilities
+[100%] Built target septentrio_gnss_driver_node

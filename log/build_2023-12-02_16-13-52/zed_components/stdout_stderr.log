@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target zed_camera_component[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+In file included from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~
+   68 | 
+      | 
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer_interface.h:35[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:40[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:22[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:[m[K In member function ‘[01m[Kvoid stereolabs::ZedCamera::processGeoPose()[m[K’:
+[01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:6839:31:[m[K [01;31m[Kerror: [m[K‘[01m[KLastGeoPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmLastGeoPose[m[K’?
+ 6839 | [01;31m[KeoPose[m[K.latlng_coordinates.getAltitude());
+      | [01;31m[K~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:89: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/zed_camera_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

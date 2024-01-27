@@ -1,0 +1,45 @@
+[4.661s] Invoking command in '/home/openark/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/openark/ros2_ws/build/examples_rclpy_executors/build install --record /home/openark/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
+[6.338s] running egg_info
+[6.340s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[6.348s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[6.349s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[6.349s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[6.349s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[6.349s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[6.350s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.350s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.350s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[6.350s] running build
+[6.350s] running build_py
+[6.350s] creating /home/openark/ros2_ws/build/examples_rclpy_executors/build
+[6.352s] creating /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib
+[6.352s] creating /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.352s] copying examples_rclpy_executors/__init__.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.352s] copying examples_rclpy_executors/callback_group.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.352s] copying examples_rclpy_executors/composed.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.353s] copying examples_rclpy_executors/talker.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.353s] copying examples_rclpy_executors/custom_executor.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.353s] copying examples_rclpy_executors/listener.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.353s] copying examples_rclpy_executors/custom_callback_group.py -> /home/openark/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[6.353s] running install
+[6.353s] running install_lib
+[6.354s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[6.354s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[6.354s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[6.354s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[6.354s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[6.355s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[6.355s] byte-compiling /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[6.355s] running install_data
+[6.355s] running install_egg_info
+[6.355s] removing '/home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info' (and everything under it)
+[6.356s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[6.356s] running install_scripts
+[6.356s] Installing callback_group script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.363s] Installing composed script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.363s] Installing custom_callback_group script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.364s] Installing custom_executor script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.364s] Installing listener script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.364s] Installing talker script to /home/openark/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[6.364s] writing list of installed files to '/home/openark/ros2_ws/build/examples_rclpy_executors/install.log'
+[6.395s] Invoked command in '/home/openark/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/openark/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/openark/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/openark/ros2_ws/build/examples_rclpy_executors/build install --record /home/openark/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed

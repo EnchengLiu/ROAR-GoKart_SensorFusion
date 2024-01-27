@@ -1,0 +1,214 @@
+[1.890s] Invoking command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces
+[3.177s] -- The C compiler identification is GNU 9.4.0
+[3.177s] -- The CXX compiler identification is GNU 9.4.0
+[3.177s] -- Check for working C compiler: /usr/bin/cc
+[3.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.178s] -- Detecting C compiler ABI info
+[3.178s] -- Detecting C compiler ABI info - done
+[3.178s] -- Detecting C compile features
+[3.178s] -- Detecting C compile features - done
+[3.178s] -- Check for working CXX compiler: /usr/bin/c++
+[3.178s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.179s] -- Detecting CXX compiler ABI info
+[3.179s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Detecting CXX compile features
+[3.179s] -- Detecting CXX compile features - done
+[3.179s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.239s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.167s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.543s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.982s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.234s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.586s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.426s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.429s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.511s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.512s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.512s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.512s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.628s] -- Found PythonExtra: .so  
+[6.962s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.967s] -- Added test 'lint_cmake' to check CMake code style
+[6.971s] -- Added test 'xmllint' to check XML markup files
+[6.999s] -- Configuring done
+[7.253s] -- Generating done
+[7.261s] -- Build files have been written to: /home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces
+[8.353s] Invoked command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tools/zed_benchmark_interfaces -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces
+[8.356s] Invoking command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces -- -j12 -l12
+[20.405s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__cpp[0m
+[20.405s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.405s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.406s] [  6%] Built target zed_topic_benchmark_interfaces__cpp
+[20.406s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.406s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.406s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.406s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_generator_c[0m
+[20.406s] [ 19%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.c.o[0m
+[20.407s] [ 22%] [32m[1mLinking C shared library libzed_topic_benchmark_interfaces__rosidl_generator_c.so[0m
+[20.407s] [ 22%] Built target zed_topic_benchmark_interfaces__rosidl_generator_c
+[20.407s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_cpp[0m
+[20.407s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.407s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.408s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped__type_support.cpp.o[0m
+[20.408s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp[0m
+[20.408s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.cpp.o[0m
+[20.408s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c[0m
+[20.408s] [ 38%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.c.o[0m
+[20.409s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[20.409s] [ 41%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so[0m
+[20.409s] [ 45%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_topic_benchmark_interfaces/msg/detail/dds_fastrtps/benchmark_stats_stamped__type_support.cpp.o[0m
+[20.409s] [ 48%] [32m[1mLinking C shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so[0m
+[20.409s] [ 48%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_cpp
+[20.414s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_c[0m
+[20.415s] [ 48%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c
+[20.415s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped__type_support.cpp.o[0m
+[20.415s] [ 54%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so[0m
+[20.416s] [ 58%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[20.416s] [ 58%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c
+[20.416s] [ 58%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp
+[20.416s] [ 61%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.416s] [ 61%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp
+[20.417s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.417s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c[0m
+[20.417s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support_c.cpp.o[0m
+[20.417s] [ 70%] [32m[1mLinking CXX shared library libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.418s] [ 70%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c
+[20.418s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces[0m
+[20.418s] [ 70%] Built target zed_topic_benchmark_interfaces
+[20.418s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__py[0m
+[20.418s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.335s] [ 74%] Built target zed_topic_benchmark_interfaces__py
+[23.423s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__python[0m
+[23.518s] [ 77%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__python.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c.o[0m
+[24.164s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/libzed_topic_benchmark_interfaces__python.so[0m
+[24.436s] [ 80%] Built target zed_topic_benchmark_interfaces__python
+[24.484s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[24.590s] [ 83%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.868s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[24.962s] [ 87%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext
+[25.072s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext[0m
+[25.199s] [ 90%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[25.434s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[25.652s] [ 93%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext
+[25.715s] [35m[1mScanning dependencies of target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[25.820s] [ 96%] [32mBuilding C object CMakeFiles/zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_topic_benchmark_interfaces/_zed_topic_benchmark_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.064s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.339s] [100%] Built target zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[27.897s] Invoked command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces -- -j12 -l12
+[30.885s] Invoking command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces
+[30.921s] -- Install configuration: ""
+[30.922s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_topic_benchmark_interfaces
+[30.922s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.925s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.925s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/rosidl_generator_c__visibility_control.h
+[30.926s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.926s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.c
+[30.926s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__functions.h
+[30.927s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.h
+[30.927s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.h
+[30.927s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.h
+[30.927s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.sh
+[30.927s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/library_path.dsv
+[30.928s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so
+[30.928s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_generator_c.so" to ""
+[30.928s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.929s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.929s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.930s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_c.h
+[30.934s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.936s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so
+[30.937s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[30.938s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.942s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.943s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.943s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[30.943s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/dds_fastrtps
+[30.943s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.943s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[30.944s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.944s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.944s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.944s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.944s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.944s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.c
+[30.945s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_c.h
+[30.945s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so
+[30.945s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[30.945s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so
+[30.945s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_c.so" to ""
+[30.946s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.946s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.946s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/benchmark_stats_stamped.hpp
+[30.946s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.946s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__struct.hpp
+[30.946s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__traits.hpp
+[30.947s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.hpp
+[30.947s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__builder.hpp
+[30.947s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.947s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces
+[30.947s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg
+[30.947s] -- Up-to-date: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail
+[30.948s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__rosidl_typesupport_introspection_cpp.hpp
+[30.948s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/include/zed_topic_benchmark_interfaces/msg/detail/benchmark_stats_stamped__type_support.cpp
+[30.948s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so
+[30.948s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[30.948s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so
+[30.949s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__rosidl_typesupport_cpp.so" to ""
+[30.949s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.sh
+[30.949s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/pythonpath.dsv
+[30.949s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/__init__.py
+[30.979s] Compiling '/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/__init__.py'...
+[30.985s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/msg
+[30.985s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped.py
+[30.986s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/msg/__init__.py
+[30.986s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/msg/_benchmark_stats_stamped_s.c
+[30.986s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[30.987s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.987s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[30.988s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.989s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[30.990s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/python3.8/site-packages/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[30.990s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__python.so
+[30.990s] -- Set runtime path of "/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/lib/libzed_topic_benchmark_interfaces__python.so" to ""
+[30.991s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.idl
+[30.991s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/msg/BenchmarkStatsStamped.msg
+[30.991s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark_interfaces
+[30.991s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark_interfaces
+[30.992s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.sh
+[30.992s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/ament_prefix_path.dsv
+[30.992s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.sh
+[30.992s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/environment/path.dsv
+[30.993s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.bash
+[30.993s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.sh
+[30.993s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.zsh
+[30.993s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/local_setup.dsv
+[30.994s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.dsv
+[30.994s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/ament_index/resource_index/packages/zed_topic_benchmark_interfaces
+[30.994s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_generator_cExport.cmake
+[30.995s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_generator_cExport-noconfig.cmake
+[30.995s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[30.995s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.996s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport.cmake
+[30.996s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[30.996s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_generator_cppExport.cmake
+[30.997s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[30.997s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.997s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport.cmake
+[30.998s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[30.998s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake-extras.cmake
+[30.998s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.998s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[30.999s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[30.999s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.999s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.999s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.000s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig.cmake
+[31.000s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/cmake/zed_topic_benchmark_interfacesConfig-version.cmake
+[31.000s] -- Installing: /home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces/share/zed_topic_benchmark_interfaces/package.xml
+[34.013s] Invoked command in '/home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/src/build/zed_topic_benchmark_interfaces

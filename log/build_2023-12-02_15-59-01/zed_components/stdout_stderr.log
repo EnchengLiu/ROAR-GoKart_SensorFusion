@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target zed_camera_component[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+In file included from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+                 from [01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:21[m[K:
+[01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~
+   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+      |                                                                [01;36m[K^[m[K
+[01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:[m[K In member function ‘[01m[Kvoid stereolabs::ZedCamera::processGeoPose()[m[K’:
+[01m[K/home/openark/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:6837:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Ksl::GNSS_CALIBRATION_STATE[m[K’ and ‘[01m[Kint[m[K’)
+ 6837 |   if([32m[KmGeoPoseStatus[m[K[01;31m[K==[m[K[34m[K0[m[K){
+      |      [32m[K~~~~~~~~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~[m[K
+      |      [32m[K|[m[K               [34m[K|[m[K
+      |      [32m[K|[m[K               [34m[Kint[m[K
+      |      [32m[Ksl::GNSS_CALIBRATION_STATE[m[K
+make[2]: *** [CMakeFiles/zed_camera_component.dir/build.make:89: CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/zed_camera_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

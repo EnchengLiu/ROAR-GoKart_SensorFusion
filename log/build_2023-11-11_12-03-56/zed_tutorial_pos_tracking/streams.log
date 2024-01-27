@@ -1,0 +1,59 @@
+[1.585s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_tutorial_pos_tracking
+[1.655s] -- The C compiler identification is GNU 9.4.0
+[1.769s] -- The CXX compiler identification is GNU 9.4.0
+[1.781s] -- Check for working C compiler: /usr/bin/cc
+[1.895s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.897s] -- Detecting C compiler ABI info
+[2.015s] -- Detecting C compiler ABI info - done
+[2.037s] -- Detecting C compile features
+[2.039s] -- Detecting C compile features - done
+[2.044s] -- Check for working CXX compiler: /usr/bin/c++
+[2.190s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.194s] -- Detecting CXX compiler ABI info
+[2.335s] -- Detecting CXX compiler ABI info - done
+[2.369s] -- Detecting CXX compile features
+[2.370s] -- Detecting CXX compile features - done
+[2.389s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.506s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.446s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.757s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.120s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.128s] -- Looking for pthread.h
+[4.237s] -- Looking for pthread.h - found
+[4.237s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.351s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.352s] -- Looking for pthread_create in pthreads
+[4.449s] -- Looking for pthread_create in pthreads - not found
+[4.450s] -- Looking for pthread_create in pthread
+[4.560s] -- Looking for pthread_create in pthread - found
+[4.562s] -- Found Threads: TRUE  
+[6.016s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.289s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.294s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.295s] -- Configured cppcheck include dirs: 
+[6.295s] -- Configured cppcheck exclude dirs and/or files: 
+[6.301s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.301s] -- Configured cpplint exclude dirs and/or files: 
+[6.306s] -- Added test 'lint_cmake' to check CMake code style
+[6.311s] -- Added test 'uncrustify' to check C / C++ code style
+[6.311s] -- Configured uncrustify additional arguments: 
+[6.315s] -- Added test 'xmllint' to check XML markup files
+[6.327s] -- Configuring done
+[6.357s] -- Generating done
+[6.362s] -- Build files have been written to: /home/openark/ros2_ws/build/zed_tutorial_pos_tracking
+[6.381s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_tutorial_pos_tracking
+[6.388s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_tutorial_pos_tracking -- -j12 -l12
+[6.469s] [35m[1mScanning dependencies of target zed_tutorial_pos_tracking[0m
+[6.541s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[25.013s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[25.485s] [100%] Built target zed_tutorial_pos_tracking
+[25.546s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_tutorial_pos_tracking -- -j12 -l12
+[25.602s] Invoking command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_tutorial_pos_tracking
+[25.619s] -- Install configuration: "Release"
+[25.623s] -- Installing: /home/openark/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[25.627s] Invoked command in '/home/openark/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_tutorial_pos_tracking

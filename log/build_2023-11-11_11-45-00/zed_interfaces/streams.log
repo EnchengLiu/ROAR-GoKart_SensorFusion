@@ -1,0 +1,387 @@
+[2.600s] Invoking command in '/home/openark/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_interfaces
+[3.952s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.952s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.952s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.952s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.953s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.179s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.285s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.952s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.636s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.636s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.676s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.677s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.678s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.803s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.807s] -- Added test 'lint_cmake' to check CMake code style
+[5.807s] -- Added test 'xmllint' to check XML markup files
+[5.817s] -- Configuring done
+[5.934s] -- Generating done
+[5.937s] -- Build files have been written to: /home/openark/ros2_ws/build/zed_interfaces
+[6.850s] Invoked command in '/home/openark/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/install/zed_interfaces
+[6.851s] Invoking command in '/home/openark/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_interfaces -- -j12 -l12
+[7.322s] [  0%] Built target zed_interfaces__cpp
+[7.322s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[7.323s] [ 24%] Built target zed_interfaces__rosidl_typesupport_cpp
+[7.323s] [ 36%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[7.323s] [ 48%] Built target zed_interfaces__rosidl_typesupport_c
+[7.324s] [ 60%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.324s] [ 72%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[7.324s] [ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[7.324s] [ 84%] Built target zed_interfaces
+[7.324s] [ 85%] Built target zed_interfaces__py
+[7.324s] [ 96%] Built target zed_interfaces__python
+[7.324s] [ 98%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[7.324s] [ 99%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.324s] [100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.463s] Invoked command in '/home/openark/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake --build /home/openark/ros2_ws/build/zed_interfaces -- -j12 -l12
+[12.600s] Invoking command in '/home/openark/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_interfaces
+[13.058s] -- Install configuration: "Release"
+[13.060s] -- Execute custom install script
+[13.060s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces
+[13.060s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.h
+[13.060s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.h
+[13.060s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.h
+[13.061s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.h
+[13.061s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__functions.h
+[13.062s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.h
+[13.062s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__type_support.h
+[13.062s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__functions.h
+[13.062s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.h
+[13.063s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__type_support.h
+[13.063s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__functions.h
+[13.064s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.h
+[13.064s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__type_support.h
+[13.064s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__functions.h
+[13.064s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.h
+[13.064s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__type_support.h
+[13.065s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__functions.h
+[13.065s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__struct.h
+[13.065s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__type_support.h
+[13.065s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__functions.h
+[13.066s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.h
+[13.066s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__type_support.h
+[13.066s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__functions.h
+[13.067s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.h
+[13.067s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__type_support.h
+[13.067s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__functions.h
+[13.067s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.h
+[13.068s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__type_support.h
+[13.068s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__functions.h
+[13.068s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.h
+[13.068s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__type_support.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__functions.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__type_support.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__functions.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.h
+[13.069s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__type_support.h
+[13.070s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__functions.h
+[13.070s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__struct.h
+[13.073s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__type_support.h
+[13.075s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__functions.h
+[13.075s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.h
+[13.075s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__type_support.h
+[13.076s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__functions.h
+[13.076s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.h
+[13.077s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__type_support.h
+[13.078s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/heartbeat.h
+[13.078s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.h
+[13.079s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.h
+[13.079s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.h
+[13.081s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.h
+[13.081s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.h
+[13.082s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.h
+[13.082s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/pos_track_status.h
+[13.083s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.083s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.h
+[13.083s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.h
+[13.084s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__functions.h
+[13.084s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.h
+[13.084s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__type_support.h
+[13.084s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__functions.h
+[13.084s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__struct.h
+[13.085s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__type_support.h
+[13.085s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__functions.h
+[13.085s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.h
+[13.085s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__type_support.h
+[13.086s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.h
+[13.086s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_roi.h
+[13.087s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.h
+[13.087s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh
+[13.089s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv
+[13.089s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[13.089s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[13.090s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[13.090s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[13.090s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[13.090s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[13.091s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[13.091s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[13.091s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[13.091s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[13.092s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[13.092s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[13.093s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[13.093s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[13.094s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.095s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[13.095s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[13.096s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[13.096s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.096s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[13.097s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[13.097s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[13.097s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[13.097s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[13.098s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[13.098s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[13.098s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[13.098s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[13.099s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[13.099s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[13.100s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.101s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[13.102s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[13.102s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.103s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[13.104s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[13.104s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[13.106s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.107s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[13.108s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[13.108s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[13.109s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[13.111s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[13.111s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[13.112s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[13.113s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[13.114s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+[13.115s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[13.116s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[13.116s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[13.118s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[13.119s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[13.121s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.122s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[13.124s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[13.125s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[13.125s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.hpp
+[13.126s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.hpp
+[13.126s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.hpp
+[13.126s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.hpp
+[13.126s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp
+[13.127s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp
+[13.127s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp
+[13.129s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__type_support.hpp
+[13.132s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp
+[13.133s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp
+[13.134s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp
+[13.135s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__type_support.hpp
+[13.136s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp
+[13.137s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__type_support.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp
+[13.138s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__type_support.hpp
+[13.139s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__builder.hpp
+[13.139s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__struct.hpp
+[13.139s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__traits.hpp
+[13.139s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__type_support.hpp
+[13.139s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__builder.hpp
+[13.140s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.hpp
+[13.140s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__traits.hpp
+[13.140s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__type_support.hpp
+[13.140s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__builder.hpp
+[13.141s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.hpp
+[13.142s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__traits.hpp
+[13.142s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__type_support.hpp
+[13.143s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__builder.hpp
+[13.143s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__traits.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__type_support.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__builder.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__traits.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__type_support.hpp
+[13.144s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__builder.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__traits.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__type_support.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__builder.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__traits.hpp
+[13.145s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__type_support.hpp
+[13.146s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__builder.hpp
+[13.146s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__struct.hpp
+[13.146s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__traits.hpp
+[13.147s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__type_support.hpp
+[13.150s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__builder.hpp
+[13.152s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.hpp
+[13.153s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__traits.hpp
+[13.153s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__type_support.hpp
+[13.154s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__builder.hpp
+[13.156s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.hpp
+[13.157s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__traits.hpp
+[13.157s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__type_support.hpp
+[13.159s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/heartbeat.hpp
+[13.161s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.hpp
+[13.162s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.hpp
+[13.163s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.hpp
+[13.163s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.hpp
+[13.164s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.hpp
+[13.164s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.hpp
+[13.165s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/pos_track_status.hpp
+[13.165s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.166s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.hpp
+[13.167s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.hpp
+[13.170s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__builder.hpp
+[13.172s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.hpp
+[13.172s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__traits.hpp
+[13.172s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__type_support.hpp
+[13.173s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__builder.hpp
+[13.173s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__struct.hpp
+[13.173s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__traits.hpp
+[13.177s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__type_support.hpp
+[13.179s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__builder.hpp
+[13.180s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.hpp
+[13.181s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__traits.hpp
+[13.182s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__type_support.hpp
+[13.182s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.hpp
+[13.183s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_roi.hpp
+[13.189s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.hpp
+[13.190s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[13.191s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[13.191s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[13.192s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[13.192s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[13.192s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[13.193s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[13.193s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[13.195s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/__init__.py
+[13.196s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_df.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_di.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box3_d.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_depth_info_stamped.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_heartbeat.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_df.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_di.py
+[13.197s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint3_d.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_object.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_objects_stamped.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_plane_stamped.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_pos_track_status.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton2_d.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton3_d.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/__init__.py
+[13.198s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_set_pose.py
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_set_roi.py
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_start_svo_rec.py
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__python.so
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl
+[13.199s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl
+[13.200s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg
+[13.201s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg
+[13.202s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg
+[13.206s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg
+[13.207s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg
+[13.207s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv
+[13.208s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg
+[13.208s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg
+[13.208s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv
+[13.209s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg
+[13.209s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg
+[13.209s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv
+[13.210s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg
+[13.210s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg
+[13.210s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl
+[13.210s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl
+[13.211s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl
+[13.211s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl
+[13.211s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl
+[13.211s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh
+[13.212s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv
+[13.213s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash
+[13.213s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh
+[13.213s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv
+[13.214s] -- Symlinking: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.214s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.215s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.215s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.215s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.215s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake
+[13.216s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake
+[13.216s] -- Up-to-date symlink: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.xml
+[13.216s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so
+[13.216s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so
+[13.216s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so
+[13.217s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.217s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so
+[13.218s] Compiling '/home/openark/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py'...
+[13.220s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport.cmake
+[13.222s] -- Installing: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport-release.cmake
+[13.224s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.227s] -- Installing: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[13.228s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake
+[13.229s] -- Installing: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-release.cmake
+[13.230s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cppExport.cmake
+[13.232s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.233s] -- Installing: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[13.235s] -- Up-to-date: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake
+[13.236s] -- Installing: /home/openark/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-release.cmake
+[13.931s] Invoked command in '/home/openark/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_multi_camera:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_tutorial_video:/home/openark/ros2_ws/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/install/zed_tutorial_depth:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_rgb_convert:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/home/openark/ros2_ws/src/install/zed_tutorial_pos_tracking:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/src/install/zed_ros2:/home/openark/ros2_ws/src/install/zed_multi_camera:/home/openark/ros2_ws/src/install/zed_display_rviz2:/home/openark/ros2_ws/src/install/zed_wrapper:/home/openark/ros2_ws/src/install/zed_tutorial_video:/home/openark/ros2_ws/src/install/zed_tutorial_depth:/home/openark/ros2_ws/src/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/src/install/zed_rgb_convert:/home/openark/ros2_ws/src/install/zed_components:/home/openark/ros2_ws/src/install/rviz_plugin_zed_od:/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/src/install/septentrio_gnss_driver:/home/openark/ros2_ws/src/install/roar_septentrio_interface:/home/openark/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/src/install/examples_rclcpp_minimal_action_client /usr/bin/cmake --install /home/openark/ros2_ws/build/zed_interfaces

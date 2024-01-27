@@ -1,0 +1,5 @@
+[ 33%] Built target subscriber_not_composable
+[ 66%] Built target subscriber_member_function
+[100%] Built target subscriber_lambda
+-- Install configuration: ""
+-- Installing: /home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv

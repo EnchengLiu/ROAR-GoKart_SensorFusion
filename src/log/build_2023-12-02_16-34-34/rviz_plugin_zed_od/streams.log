@@ -1,0 +1,97 @@
+[0.500s] Invoking command in '/home/openark/ros2_ws/src/build/rviz_plugin_zed_od': AMENT_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/rviz_plugin_zed_od
+[0.651s] -- The C compiler identification is GNU 9.4.0
+[0.816s] -- The CXX compiler identification is GNU 9.4.0
+[0.863s] -- Check for working C compiler: /usr/bin/cc
+[1.079s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.082s] -- Detecting C compiler ABI info
+[1.267s] -- Detecting C compiler ABI info - done
+[1.299s] -- Detecting C compile features
+[1.299s] -- Detecting C compile features - done
+[1.305s] -- Check for working CXX compiler: /usr/bin/c++
+[1.447s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.449s] -- Detecting CXX compiler ABI info
+[1.568s] -- Detecting CXX compiler ABI info - done
+[1.587s] -- Detecting CXX compile features
+[1.588s] -- Detecting CXX compile features - done
+[1.589s] -- Enabling tests requiring a display
+[1.595s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.648s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.648s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.179s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.184s] -- Found OGRE
+[2.184s] --   static     : OFF
+[2.184s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.184s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.184s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.184s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.185s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[2.185s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.185s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[2.185s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.185s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.185s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.186s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.204s] -- Could not find freeimage library
+[2.242s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.257s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.447s] -- Found X11: /usr/include   
+[2.448s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.566s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.567s] -- Looking for gethostbyname
+[2.670s] -- Looking for gethostbyname - found
+[2.670s] -- Looking for connect
+[2.794s] -- Looking for connect - found
+[2.794s] -- Looking for remove
+[2.895s] -- Looking for remove - found
+[2.895s] -- Looking for shmat
+[2.997s] -- Looking for shmat - found
+[2.997s] -- Looking for IceConnectionNumber in ICE
+[3.095s] -- Looking for IceConnectionNumber in ICE - found
+[3.104s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.104s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.198s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.359s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.404s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.029s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[4.078s] -- library: libassimp.so.5
+[4.229s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.419s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.424s] -- Looking for pthread.h
+[4.530s] -- Looking for pthread.h - found
+[4.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.635s] -- Looking for pthread_create in pthreads
+[4.728s] -- Looking for pthread_create in pthreads - not found
+[4.728s] -- Looking for pthread_create in pthread
+[4.846s] -- Looking for pthread_create in pthread - found
+[4.849s] -- Found Threads: TRUE  
+[5.350s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.998s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[6.011s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.092s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.096s] -- Configured cppcheck include dirs: /home/openark/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/include;/home/openark/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/include;$<BUILD_INTERFACE:/home/openark/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/include>
+[6.096s] -- Configured cppcheck exclude dirs and/or files: 
+[6.099s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.099s] -- Configured cpplint exclude dirs and/or files: 
+[6.101s] -- Added test 'lint_cmake' to check CMake code style
+[6.104s] -- Added test 'uncrustify' to check C / C++ code style
+[6.104s] -- Configured uncrustify additional arguments: 
+[6.106s] -- Added test 'xmllint' to check XML markup files
+[6.115s] -- Configuring done
+[6.202s] -- Generating done
+[6.207s] -- Build files have been written to: /home/openark/ros2_ws/src/build/rviz_plugin_zed_od
+[6.227s] Invoked command in '/home/openark/ros2_ws/src/build/rviz_plugin_zed_od' returned '0': AMENT_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/openark/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_INSTALL_PREFIX=/home/openark/ros2_ws/src/install/rviz_plugin_zed_od
+[6.231s] Invoking command in '/home/openark/ros2_ws/src/build/rviz_plugin_zed_od': AMENT_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/openark/ros2_ws/src/install/zed_interfaces:/home/openark/ros2_ws/install/zed_ros2:/home/openark/ros2_ws/install/zed_display_rviz2:/home/openark/ros2_ws/install/zed_wrapper:/home/openark/ros2_ws/install/zed_topic_benchmark_interfaces:/home/openark/ros2_ws/install/zed_components:/home/openark/ros2_ws/install/rviz_plugin_zed_od:/home/openark/ros2_ws/install/zed_interfaces:/home/openark/ros2_ws/install/septentrio_gnss_driver:/home/openark/ros2_ws/install/roar_septentrio_interface:/home/openark/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/openark/ros2_ws/install/examples_rclcpp_minimal_timer:/home/openark/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclcpp_minimal_service:/home/openark/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/openark/ros2_ws/install/examples_rclcpp_minimal_composition:/home/openark/ros2_ws/install/examples_rclcpp_minimal_client:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/openark/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/openark/ros2_ws/install/examples_rclpy_minimal_service:/home/openark/ros2_ws/install/examples_rclpy_minimal_publisher:/home/openark/ros2_ws/install/examples_rclpy_minimal_client:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_server:/home/openark/ros2_ws/install/examples_rclpy_minimal_action_client:/home/openark/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/openark/ros2_ws/src/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/openark/ros2_ws/src/build/rviz_plugin_zed_od -- -j12 -l12
+[6.293s] [35m[1mScanning dependencies of target rviz_plugin_zed_od_autogen[0m
+[6.306s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[6.867s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[6.879s] [35m[1mScanning dependencies of target rviz_plugin_zed_od[0m
+[7.018s] [ 40%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/rviz_plugin_zed_od_autogen/mocs_compilation.cpp.o[0m
+[16.894s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_info.cpp.o[0m
+[20.041s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_display.cpp.o[0m
+[29.502s] [100%] [32m[1mLinking CXX shared library librviz_plugin_zed_od.so[0m
+[31.334s] [100%] Built target rviz_plugin_zed_od
